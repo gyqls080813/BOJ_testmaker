@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "MockCT: Generate (interactive)",
+      "type": "shell",
+      "command": "python mock_ct_bundle_bucket.py",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "BOJ: Run Samples",
+      "type": "shell",
+      "command": "boj run",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "BOJ: Submit",
+      "type": "shell",
+      "command": "boj submit",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

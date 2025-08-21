@@ -1,0 +1,23 @@
+general:
+  selenium_browser: chrome
+  default_filetype: py
+  editor_command: code -r
+workspace:
+  ongoing_dir: problems
+  archive_dir: solved
+filetype:
+  py:
+    language: python3
+    main: main.py
+    compile: ''
+    run: python main.py
+  cpp:
+    language: c++17
+    main: main.cc
+    compile: g++ -std=c++17 -O2 -o main main.cc
+    run: ./main.exe
+  java:
+    language: java11
+    main: Main.java
+    compile: javac Main.java
+    run: java Main

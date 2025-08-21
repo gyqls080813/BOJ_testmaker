@@ -1,0 +1,4531 @@
+{
+  "bucket": {
+    "name": "veasy",
+    "range": "B5~B3",
+    "count": 1
+  },
+  "tags": [],
+  "updated_at": "2025-08-21T09:55:15.559027",
+  "items": [
+    {
+      "problemId": 1000,
+      "titleKo": "A+B",
+      "titles": [
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "A+B",
+          "isOriginal": true
+        },
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "A+B",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 349374,
+      "level": 1,
+      "votedUserCount": 529,
+      "sprout": true,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 2.6041,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1001,
+      "titleKo": "A-B",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "A-B",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 300761,
+      "level": 1,
+      "votedUserCount": 198,
+      "sprout": true,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 1.4487,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1008,
+      "titleKo": "A/B",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "A/B",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 250239,
+      "level": 1,
+      "votedUserCount": 146,
+      "sprout": true,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 2.8983,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1085,
+      "titleKo": "직사각형에서 탈출",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "직사각형에서 탈출",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 68174,
+      "level": 3,
+      "votedUserCount": 245,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.5175,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "geometry",
+          "isMeta": false,
+          "bojTagId": 100,
+          "problemCount": 1842,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "기하학",
+              "short": "기하학"
+            },
+            {
+              "language": "en",
+              "name": "geometry",
+              "short": "geom"
+            },
+            {
+              "language": "ja",
+              "name": "幾何学",
+              "short": "幾何"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1247,
+      "titleKo": "부호",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "부호",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 7109,
+      "level": 3,
+      "votedUserCount": 136,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.6265,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "arbitrary_precision",
+          "isMeta": false,
+          "bojTagId": 117,
+          "problemCount": 288,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "임의 정밀도 / 큰 수 연산",
+              "short": "임의 정밀도 / 큰 수 연산"
+            },
+            {
+              "language": "en",
+              "name": "arbitrary precision / big integers",
+              "short": "arbitrary precision / big integers"
+            },
+            {
+              "language": "ja",
+              "name": "高精度または大きな数の演算",
+              "short": "高精度または大きな数の演算"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "빅인티저"
+            },
+            {
+              "alias": "빅데시멀"
+            },
+            {
+              "alias": "biginteger"
+            },
+            {
+              "alias": "bigdecimal"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1264,
+      "titleKo": "모음의 개수",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "모음의 개수",
+          "isOriginal": false
+        },
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "Vowels",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 16013,
+      "level": 2,
+      "votedUserCount": 94,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 1.8615,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "string",
+          "isMeta": false,
+          "bojTagId": 158,
+          "problemCount": 2775,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "문자열",
+              "short": "문자열"
+            },
+            {
+              "language": "en",
+              "name": "string",
+              "short": "string"
+            },
+            {
+              "language": "ja",
+              "name": "文字列",
+              "short": "文字列"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "스트링"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1267,
+      "titleKo": "핸드폰 요금",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "핸드폰 요금",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 13983,
+      "level": 3,
+      "votedUserCount": 119,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.9935,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1271,
+      "titleKo": "엄청난 부자2",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "엄청난 부자2",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 25838,
+      "level": 1,
+      "votedUserCount": 635,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.8362,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "arbitrary_precision",
+          "isMeta": false,
+          "bojTagId": 117,
+          "problemCount": 288,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "임의 정밀도 / 큰 수 연산",
+              "short": "임의 정밀도 / 큰 수 연산"
+            },
+            {
+              "language": "en",
+              "name": "arbitrary precision / big integers",
+              "short": "arbitrary precision / big integers"
+            },
+            {
+              "language": "ja",
+              "name": "高精度または大きな数の演算",
+              "short": "高精度または大きな数の演算"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "빅인티저"
+            },
+            {
+              "alias": "빅데시멀"
+            },
+            {
+              "alias": "biginteger"
+            },
+            {
+              "alias": "bigdecimal"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1284,
+      "titleKo": "집 주소",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "집 주소",
+          "isOriginal": false
+        },
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "House Numbers",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 7382,
+      "level": 3,
+      "votedUserCount": 105,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.426,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1330,
+      "titleKo": "두 수 비교하기",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "두 수 비교하기",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 222078,
+      "level": 1,
+      "votedUserCount": 187,
+      "sprout": true,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 2.007,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1547,
+      "titleKo": "공",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "공",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 12541,
+      "level": 3,
+      "votedUserCount": 126,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.3549,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "simulation",
+          "isMeta": false,
+          "bojTagId": 141,
+          "problemCount": 1264,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "시뮬레이션",
+              "short": "시뮬레이션"
+            },
+            {
+              "language": "en",
+              "name": "simulation",
+              "short": "simulation"
+            },
+            {
+              "language": "ja",
+              "name": "シミュレーション",
+              "short": "シミュレーション"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1598,
+      "titleKo": "꼬리를 무는 숫자 나열",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "꼬리를 무는 숫자 나열",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 5731,
+      "level": 3,
+      "votedUserCount": 109,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.263,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1703,
+      "titleKo": "생장점",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "생장점",
+          "isOriginal": false
+        },
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "Growth Tips",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 2595,
+      "level": 3,
+      "votedUserCount": 84,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.2432,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1809,
+      "titleKo": "Moo",
+      "titles": [
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "Moo",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 6170,
+      "level": 1,
+      "votedUserCount": 241,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.0969,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1837,
+      "titleKo": "암호제작",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "암호제작",
+          "isOriginal": false
+        },
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "The Embarrassed Cryptographer",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 4228,
+      "level": 3,
+      "votedUserCount": 113,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.403,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        },
+        {
+          "key": "arbitrary_precision",
+          "isMeta": false,
+          "bojTagId": 117,
+          "problemCount": 288,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "임의 정밀도 / 큰 수 연산",
+              "short": "임의 정밀도 / 큰 수 연산"
+            },
+            {
+              "language": "en",
+              "name": "arbitrary precision / big integers",
+              "short": "arbitrary precision / big integers"
+            },
+            {
+              "language": "ja",
+              "name": "高精度または大きな数の演算",
+              "short": "高精度または大きな数の演算"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "빅인티저"
+            },
+            {
+              "alias": "빅데시멀"
+            },
+            {
+              "alias": "biginteger"
+            },
+            {
+              "alias": "bigdecimal"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2010,
+      "titleKo": "플러그",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "플러그",
+          "isOriginal": false
+        },
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "Electrical Outlets",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 13533,
+      "level": 3,
+      "votedUserCount": 107,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.7833,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2061,
+      "titleKo": "좋은 암호",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "좋은 암호",
+          "isOriginal": false
+        },
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "The Embarrassed Cryptographer",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 2015,
+      "level": 3,
+      "votedUserCount": 80,
+      "sprout": false,
+      "givesNoRating": true,
+      "isLevelLocked": false,
+      "averageTries": 2.2333,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        },
+        {
+          "key": "arbitrary_precision",
+          "isMeta": false,
+          "bojTagId": 117,
+          "problemCount": 288,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "임의 정밀도 / 큰 수 연산",
+              "short": "임의 정밀도 / 큰 수 연산"
+            },
+            {
+              "language": "en",
+              "name": "arbitrary precision / big integers",
+              "short": "arbitrary precision / big integers"
+            },
+            {
+              "language": "ja",
+              "name": "高精度または大きな数の演算",
+              "short": "高精度または大きな数の演算"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "빅인티저"
+            },
+            {
+              "alias": "빅데시멀"
+            },
+            {
+              "alias": "biginteger"
+            },
+            {
+              "alias": "bigdecimal"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "warn": [
+          {
+            "type": "same",
+            "data": 1837
+          }
+        ]
+      }
+    },
+    {
+      "problemId": 2083,
+      "titleKo": "럭비 클럽",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "럭비 클럽",
+          "isOriginal": false
+        },
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "Rugby Club",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 9346,
+      "level": 2,
+      "votedUserCount": 149,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.7927,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2338,
+      "titleKo": "긴자리 계산",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "긴자리 계산",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 20386,
+      "level": 1,
+      "votedUserCount": 373,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.0073,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "arbitrary_precision",
+          "isMeta": false,
+          "bojTagId": 117,
+          "problemCount": 288,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "임의 정밀도 / 큰 수 연산",
+              "short": "임의 정밀도 / 큰 수 연산"
+            },
+            {
+              "language": "en",
+              "name": "arbitrary precision / big integers",
+              "short": "arbitrary precision / big integers"
+            },
+            {
+              "language": "ja",
+              "name": "高精度または大きな数の演算",
+              "short": "高精度または大きな数の演算"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "빅인티저"
+            },
+            {
+              "alias": "빅데시멀"
+            },
+            {
+              "alias": "biginteger"
+            },
+            {
+              "alias": "bigdecimal"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2393,
+      "titleKo": "Rook",
+      "titles": [
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "Rook",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 7581,
+      "level": 1,
+      "votedUserCount": 194,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.6715,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2420,
+      "titleKo": "사파리월드",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "사파리월드",
+          "isOriginal": false
+        },
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "Make a Difference",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 35592,
+      "level": 1,
+      "votedUserCount": 60,
+      "sprout": true,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 2.1557,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2438,
+      "titleKo": "별 찍기 - 1",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "별 찍기 - 1",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 202034,
+      "level": 1,
+      "votedUserCount": 161,
+      "sprout": true,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 1.6098,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2439,
+      "titleKo": "별 찍기 - 2",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "별 찍기 - 2",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 184102,
+      "level": 2,
+      "votedUserCount": 147,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 1.7852,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2440,
+      "titleKo": "별 찍기 - 3",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "별 찍기 - 3",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 67818,
+      "level": 2,
+      "votedUserCount": 122,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 1.457,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2441,
+      "titleKo": "별 찍기 - 4",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "별 찍기 - 4",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 61116,
+      "level": 3,
+      "votedUserCount": 181,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.3524,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2442,
+      "titleKo": "별 찍기 - 5",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "별 찍기 - 5",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 42657,
+      "level": 3,
+      "votedUserCount": 97,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 1.8055,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2443,
+      "titleKo": "별 찍기 - 6",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "별 찍기 - 6",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 31142,
+      "level": 3,
+      "votedUserCount": 151,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.3341,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2444,
+      "titleKo": "별 찍기 - 7",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "별 찍기 - 7",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 64888,
+      "level": 3,
+      "votedUserCount": 179,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.8011,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2445,
+      "titleKo": "별 찍기 - 8",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "별 찍기 - 8",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 30225,
+      "level": 3,
+      "votedUserCount": 137,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.3786,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2446,
+      "titleKo": "별 찍기 - 9",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "별 찍기 - 9",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 35266,
+      "level": 3,
+      "votedUserCount": 83,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 1.653,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2455,
+      "titleKo": "지능형 기차",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "지능형 기차",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 21767,
+      "level": 3,
+      "votedUserCount": 109,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.3203,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2460,
+      "titleKo": "지능형 기차 2",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "지능형 기차 2",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 13963,
+      "level": 3,
+      "votedUserCount": 103,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.2442,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2475,
+      "titleKo": "검증수",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "검증수",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 61567,
+      "level": 1,
+      "votedUserCount": 59,
+      "sprout": true,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 1.3533,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2476,
+      "titleKo": "주사위 게임",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "주사위 게임",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 13046,
+      "level": 3,
+      "votedUserCount": 102,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.8284,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2480,
+      "titleKo": "주사위 세개",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "주사위 세개",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 122239,
+      "level": 2,
+      "votedUserCount": 231,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.1346,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "case_work",
+          "isMeta": false,
+          "bojTagId": 137,
+          "problemCount": 1066,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "많은 조건 분기",
+              "short": "많은 조건 분기"
+            },
+            {
+              "language": "en",
+              "name": "case work",
+              "short": "case work"
+            },
+            {
+              "language": "ja",
+              "name": "ケースワーク",
+              "short": "ケースワーク"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "케이스"
+            },
+            {
+              "alias": "케이스워크"
+            },
+            {
+              "alias": "케이스 워크"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2490,
+      "titleKo": "윷놀이",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "윷놀이",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 25507,
+      "level": 3,
+      "votedUserCount": 113,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.7622,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2501,
+      "titleKo": "약수 구하기",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "약수 구하기",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 41542,
+      "level": 3,
+      "votedUserCount": 141,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.9767,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2506,
+      "titleKo": "점수계산",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "점수계산",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 12450,
+      "level": 3,
+      "votedUserCount": 109,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.3087,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2522,
+      "titleKo": "별 찍기 - 12",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "별 찍기 - 12",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 20929,
+      "level": 3,
+      "votedUserCount": 121,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.1983,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2523,
+      "titleKo": "별 찍기 - 13",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "별 찍기 - 13",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 23648,
+      "level": 3,
+      "votedUserCount": 124,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.3812,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2525,
+      "titleKo": "오븐 시계",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "오븐 시계",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 123259,
+      "level": 3,
+      "votedUserCount": 115,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 2.6131,
+      "official": true,
+      "tags": [
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2530,
+      "titleKo": "인공지능 시계",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "인공지능 시계",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 23400,
+      "level": 2,
+      "votedUserCount": 201,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.142,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2547,
+      "titleKo": "사탕 선생 고창영",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "사탕 선생 고창영",
+          "isOriginal": true
+        },
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "Another Candies",
+          "isOriginal": false
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 2723,
+      "level": 3,
+      "votedUserCount": 87,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.5413,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "arbitrary_precision",
+          "isMeta": false,
+          "bojTagId": 117,
+          "problemCount": 288,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "임의 정밀도 / 큰 수 연산",
+              "short": "임의 정밀도 / 큰 수 연산"
+            },
+            {
+              "language": "en",
+              "name": "arbitrary precision / big integers",
+              "short": "arbitrary precision / big integers"
+            },
+            {
+              "language": "ja",
+              "name": "高精度または大きな数の演算",
+              "short": "高精度または大きな数の演算"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "빅인티저"
+            },
+            {
+              "alias": "빅데시멀"
+            },
+            {
+              "alias": "biginteger"
+            },
+            {
+              "alias": "bigdecimal"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2557,
+      "titleKo": "Hello World",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "Hello World",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 385204,
+      "level": 1,
+      "votedUserCount": 169,
+      "sprout": true,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 2.529,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2558,
+      "titleKo": "A+B - 2",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "A+B - 2",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 81024,
+      "level": 1,
+      "votedUserCount": 70,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 1.3874,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2562,
+      "titleKo": "최댓값",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "최댓값",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 151352,
+      "level": 3,
+      "votedUserCount": 195,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.1959,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2566,
+      "titleKo": "최댓값",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "최댓값",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 47606,
+      "level": 3,
+      "votedUserCount": 167,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.4084,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2576,
+      "titleKo": "홀수",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "홀수",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 21989,
+      "level": 3,
+      "votedUserCount": 118,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.7707,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2588,
+      "titleKo": "곱셈",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "곱셈",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 186498,
+      "level": 3,
+      "votedUserCount": 130,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 2.1566,
+      "official": true,
+      "tags": [
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        },
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 2712,
+      "titleKo": "미국 스타일",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "미국 스타일",
+          "isOriginal": false
+        },
+        {
+          "language": "en",
+          "languageDisplayName": "en",
+          "title": "Conversions",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 2427,
+      "level": 3,
+      "votedUserCount": 69,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.5163,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "arithmetic",
+          "isMeta": false,
+          "bojTagId": 121,
+          "problemCount": 1246,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "사칙연산",
+              "short": "사칙연산"
+            },
+            {
+              "language": "en",
+              "name": "arithmetic",
+              "short": "arithmetic"
+            },
+            {
+              "language": "ja",
+              "name": "算数",
+              "short": "算数"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "덧셈"
+            },
+            {
+              "alias": "뺄셈"
+            },
+            {
+              "alias": "곱셈"
+            },
+            {
+              "alias": "나눗셈"
+            },
+            {
+              "alias": "더하기"
+            },
+            {
+              "alias": "빼기"
+            },
+            {
+              "alias": "곱하기"
+            },
+            {
+              "alias": "나누기"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    }
+  ]
+}

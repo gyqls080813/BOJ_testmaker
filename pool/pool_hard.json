@@ -1,0 +1,5681 @@
+{
+  "bucket": {
+    "name": "hard",
+    "range": "G4~P5",
+    "count": 1
+  },
+  "tags": [],
+  "updated_at": "2025-08-21T09:55:17.566774",
+  "items": [
+    {
+      "problemId": 1005,
+      "titleKo": "ACM Craft",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "ACM Craft",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 18376,
+      "level": 13,
+      "votedUserCount": 531,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.2734,
+      "official": true,
+      "tags": [
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "graphs",
+          "isMeta": false,
+          "bojTagId": 7,
+          "problemCount": 4666,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 이론",
+              "short": "그래프 이론"
+            },
+            {
+              "language": "en",
+              "name": "graph theory",
+              "short": "graph"
+            },
+            {
+              "language": "ja",
+              "name": "グラフ理論",
+              "short": "グラフ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "그래프이론"
+            },
+            {
+              "alias": "그래프"
+            }
+          ]
+        },
+        {
+          "key": "dag",
+          "isMeta": false,
+          "bojTagId": 213,
+          "problemCount": 283,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "방향 비순환 그래프",
+              "short": "dag"
+            },
+            {
+              "language": "en",
+              "name": "directed acyclic graph",
+              "short": "dag"
+            },
+            {
+              "language": "ja",
+              "name": "有向非巡回グラフ",
+              "short": "有向非巡回グラフ"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "topological_sorting",
+          "isMeta": false,
+          "bojTagId": 78,
+          "problemCount": 218,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "위상 정렬",
+              "short": "위상 정렬"
+            },
+            {
+              "language": "en",
+              "name": "topological sorting",
+              "short": "topological sorting"
+            },
+            {
+              "language": "ja",
+              "name": "トポロジカルソート",
+              "short": "トポロジカルソート"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1007,
+      "titleKo": "벡터 매칭",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "벡터 매칭",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 4117,
+      "level": 14,
+      "votedUserCount": 197,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.6058,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1016,
+      "titleKo": "제곱 ㄴㄴ 수",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "제곱 ㄴㄴ 수",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 11320,
+      "level": 15,
+      "votedUserCount": 453,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 4.372,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "number_theory",
+          "isMeta": false,
+          "bojTagId": 95,
+          "problemCount": 1724,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "정수론",
+              "short": "정수론"
+            },
+            {
+              "language": "en",
+              "name": "number theory",
+              "short": "number theory"
+            },
+            {
+              "language": "ja",
+              "name": "整数論",
+              "short": "整数論"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "primality_test",
+          "isMeta": false,
+          "bojTagId": 9,
+          "problemCount": 368,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "소수 판정",
+              "short": "소수 판정"
+            },
+            {
+              "language": "en",
+              "name": "primality test",
+              "short": "primality test"
+            },
+            {
+              "language": "ja",
+              "name": "素数性テスト",
+              "short": "素数性テスト"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "소수"
+            },
+            {
+              "alias": "소수판별"
+            },
+            {
+              "alias": "소수판정"
+            },
+            {
+              "alias": "prime"
+            }
+          ]
+        },
+        {
+          "key": "sieve",
+          "isMeta": false,
+          "bojTagId": 67,
+          "problemCount": 221,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "에라토스테네스의 체",
+              "short": "에라토스테네스의 체"
+            },
+            {
+              "language": "en",
+              "name": "sieve of eratosthenes",
+              "short": "eratosthenes"
+            },
+            {
+              "language": "ja",
+              "name": "エラトステネスの篩",
+              "short": "エラトステネス"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "sieve"
+            },
+            {
+              "alias": "에라체"
+            },
+            {
+              "alias": "소수"
+            },
+            {
+              "alias": "prime"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1019,
+      "titleKo": "책 페이지",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "책 페이지",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 6333,
+      "level": 16,
+      "votedUserCount": 516,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.3149,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1022,
+      "titleKo": "소용돌이 예쁘게 출력하기",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "소용돌이 예쁘게 출력하기",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 3976,
+      "level": 13,
+      "votedUserCount": 103,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.2875,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1027,
+      "titleKo": "고층 건물",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "고층 건물",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 6002,
+      "level": 12,
+      "votedUserCount": 196,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.0708,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        },
+        {
+          "key": "geometry",
+          "isMeta": false,
+          "bojTagId": 100,
+          "problemCount": 1842,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "기하학",
+              "short": "기하학"
+            },
+            {
+              "language": "en",
+              "name": "geometry",
+              "short": "geom"
+            },
+            {
+              "language": "ja",
+              "name": "幾何学",
+              "short": "幾何"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1028,
+      "titleKo": "다이아몬드 광산",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "다이아몬드 광산",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 2154,
+      "level": 16,
+      "votedUserCount": 215,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.7581,
+      "official": true,
+      "tags": [
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "prefix_sum",
+          "isMeta": false,
+          "bojTagId": 139,
+          "problemCount": 1235,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "누적 합",
+              "short": "누적 합"
+            },
+            {
+              "language": "en",
+              "name": "prefix sum",
+              "short": "prefix sum"
+            },
+            {
+              "language": "ja",
+              "name": "累積和",
+              "short": "累積和"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "구간합"
+            },
+            {
+              "alias": "부분합"
+            },
+            {
+              "alias": "rangesum"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1029,
+      "titleKo": "그림 교환",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "그림 교환",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 1714,
+      "level": 15,
+      "votedUserCount": 119,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.3921,
+      "official": true,
+      "tags": [
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "bitmask",
+          "isMeta": false,
+          "bojTagId": 14,
+          "problemCount": 882,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "비트마스킹",
+              "short": "비트마스킹"
+            },
+            {
+              "language": "en",
+              "name": "bitmask",
+              "short": "bitmask"
+            },
+            {
+              "language": "ja",
+              "name": "ビット表現",
+              "short": "ビット表現"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "비트필드"
+            },
+            {
+              "alias": "비트마스크"
+            }
+          ]
+        },
+        {
+          "key": "dp_bitfield",
+          "isMeta": false,
+          "bojTagId": 87,
+          "problemCount": 352,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "비트필드를 이용한 다이나믹 프로그래밍",
+              "short": "비트필드를 이용한 다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming using bitfield",
+              "short": "bitfield dp"
+            },
+            {
+              "language": "ja",
+              "name": "ビットを使用した動的計画法",
+              "short": "ビットdp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "비트마스크"
+            },
+            {
+              "alias": "비트dp"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1030,
+      "titleKo": "프렉탈 평면",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "프렉탈 평면",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 1395,
+      "level": 13,
+      "votedUserCount": 64,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.1591,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "divide_and_conquer",
+          "isMeta": false,
+          "bojTagId": 24,
+          "problemCount": 468,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "분할 정복",
+              "short": "분할 정복"
+            },
+            {
+              "language": "en",
+              "name": "divide and conquer",
+              "short": "d&c"
+            },
+            {
+              "language": "ja",
+              "name": "分割統治法",
+              "short": "分割統治法"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "dnc"
+            }
+          ]
+        },
+        {
+          "key": "recursion",
+          "isMeta": false,
+          "bojTagId": 62,
+          "problemCount": 293,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "재귀",
+              "short": "재귀"
+            },
+            {
+              "language": "en",
+              "name": "recursion",
+              "short": "recursion"
+            },
+            {
+              "language": "ja",
+              "name": "再帰",
+              "short": "再帰"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1033,
+      "titleKo": "칵테일",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "칵테일",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 2244,
+      "level": 14,
+      "votedUserCount": 80,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.8547,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "graphs",
+          "isMeta": false,
+          "bojTagId": 7,
+          "problemCount": 4666,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 이론",
+              "short": "그래프 이론"
+            },
+            {
+              "language": "en",
+              "name": "graph theory",
+              "short": "graph"
+            },
+            {
+              "language": "ja",
+              "name": "グラフ理論",
+              "short": "グラフ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "그래프이론"
+            },
+            {
+              "alias": "그래프"
+            }
+          ]
+        },
+        {
+          "key": "graph_traversal",
+          "isMeta": false,
+          "bojTagId": 11,
+          "problemCount": 2332,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 탐색",
+              "short": "그래프 탐색"
+            },
+            {
+              "language": "en",
+              "name": "graph traversal",
+              "short": "traversal"
+            },
+            {
+              "language": "ja",
+              "name": "グラフの探索",
+              "short": "横断"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "bfs"
+            },
+            {
+              "alias": "dfs"
+            }
+          ]
+        },
+        {
+          "key": "number_theory",
+          "isMeta": false,
+          "bojTagId": 95,
+          "problemCount": 1724,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "정수론",
+              "short": "정수론"
+            },
+            {
+              "language": "en",
+              "name": "number theory",
+              "short": "number theory"
+            },
+            {
+              "language": "ja",
+              "name": "整数論",
+              "short": "整数論"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "euclidean",
+          "isMeta": false,
+          "bojTagId": 26,
+          "problemCount": 236,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "유클리드 호제법",
+              "short": "유클리드 호제법"
+            },
+            {
+              "language": "en",
+              "name": "euclidean algorithm",
+              "short": "euclidean algorithm"
+            },
+            {
+              "language": "ja",
+              "name": "ユークリッドの互除法",
+              "short": "ユークリッドの互除法"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "유클리드알고리즘"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1034,
+      "titleKo": "램프",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "램프",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 2931,
+      "level": 12,
+      "votedUserCount": 108,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.1634,
+      "official": true,
+      "tags": [
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        },
+        {
+          "key": "ad_hoc",
+          "isMeta": false,
+          "bojTagId": 109,
+          "problemCount": 1961,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "애드 혹",
+              "short": "애드 혹"
+            },
+            {
+              "language": "en",
+              "name": "ad-hoc",
+              "short": "ad-hoc"
+            },
+            {
+              "language": "ja",
+              "name": "アドホック",
+              "short": "アドホック"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "parity",
+          "isMeta": false,
+          "bojTagId": 230,
+          "problemCount": 97,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "홀짝성",
+              "short": "홀짝성"
+            },
+            {
+              "language": "en",
+              "name": "parity",
+              "short": "parity"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1035,
+      "titleKo": "조각 움직이기",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "조각 움직이기",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 820,
+      "level": 15,
+      "votedUserCount": 70,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.0744,
+      "official": true,
+      "tags": [
+        {
+          "key": "graphs",
+          "isMeta": false,
+          "bojTagId": 7,
+          "problemCount": 4666,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 이론",
+              "short": "그래프 이론"
+            },
+            {
+              "language": "en",
+              "name": "graph theory",
+              "short": "graph"
+            },
+            {
+              "language": "ja",
+              "name": "グラフ理論",
+              "short": "グラフ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "그래프이론"
+            },
+            {
+              "alias": "그래프"
+            }
+          ]
+        },
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        },
+        {
+          "key": "graph_traversal",
+          "isMeta": false,
+          "bojTagId": 11,
+          "problemCount": 2332,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 탐색",
+              "short": "그래프 탐색"
+            },
+            {
+              "language": "en",
+              "name": "graph traversal",
+              "short": "traversal"
+            },
+            {
+              "language": "ja",
+              "name": "グラフの探索",
+              "short": "横断"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "bfs"
+            },
+            {
+              "alias": "dfs"
+            }
+          ]
+        },
+        {
+          "key": "bfs",
+          "isMeta": false,
+          "bojTagId": 126,
+          "problemCount": 1144,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "너비 우선 탐색",
+              "short": "너비 우선 탐색"
+            },
+            {
+              "language": "en",
+              "name": "breadth-first search",
+              "short": "bfs"
+            },
+            {
+              "language": "ja",
+              "name": "幅優先検索",
+              "short": "bfs"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "breadthfirst"
+            },
+            {
+              "alias": "breadth first"
+            }
+          ]
+        },
+        {
+          "key": "bitmask",
+          "isMeta": false,
+          "bojTagId": 14,
+          "problemCount": 882,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "비트마스킹",
+              "short": "비트마스킹"
+            },
+            {
+              "language": "en",
+              "name": "bitmask",
+              "short": "bitmask"
+            },
+            {
+              "language": "ja",
+              "name": "ビット表現",
+              "short": "ビット表現"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "비트필드"
+            },
+            {
+              "alias": "비트마스크"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1036,
+      "titleKo": "36진수",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "36진수",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 1511,
+      "level": 14,
+      "votedUserCount": 150,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.9133,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "greedy",
+          "isMeta": false,
+          "bojTagId": 33,
+          "problemCount": 3145,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그리디 알고리즘",
+              "short": "그리디 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "greedy",
+              "short": "greedy"
+            },
+            {
+              "language": "ja",
+              "name": "貪欲法",
+              "short": "貪欲法"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "탐욕법"
+            }
+          ]
+        },
+        {
+          "key": "string",
+          "isMeta": false,
+          "bojTagId": 158,
+          "problemCount": 2775,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "문자열",
+              "short": "문자열"
+            },
+            {
+              "language": "en",
+              "name": "string",
+              "short": "string"
+            },
+            {
+              "language": "ja",
+              "name": "文字列",
+              "short": "文字列"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "스트링"
+            }
+          ]
+        },
+        {
+          "key": "arbitrary_precision",
+          "isMeta": false,
+          "bojTagId": 117,
+          "problemCount": 288,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "임의 정밀도 / 큰 수 연산",
+              "short": "임의 정밀도 / 큰 수 연산"
+            },
+            {
+              "language": "en",
+              "name": "arbitrary precision / big integers",
+              "short": "arbitrary precision / big integers"
+            },
+            {
+              "language": "ja",
+              "name": "高精度または大きな数の演算",
+              "short": "高精度または大きな数の演算"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "빅인티저"
+            },
+            {
+              "alias": "빅데시멀"
+            },
+            {
+              "alias": "biginteger"
+            },
+            {
+              "alias": "bigdecimal"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1039,
+      "titleKo": "교환",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "교환",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 3908,
+      "level": 14,
+      "votedUserCount": 140,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 4.1315,
+      "official": true,
+      "tags": [
+        {
+          "key": "graphs",
+          "isMeta": false,
+          "bojTagId": 7,
+          "problemCount": 4666,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 이론",
+              "short": "그래프 이론"
+            },
+            {
+              "language": "en",
+              "name": "graph theory",
+              "short": "graph"
+            },
+            {
+              "language": "ja",
+              "name": "グラフ理論",
+              "short": "グラフ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "그래프이론"
+            },
+            {
+              "alias": "그래프"
+            }
+          ]
+        },
+        {
+          "key": "graph_traversal",
+          "isMeta": false,
+          "bojTagId": 11,
+          "problemCount": 2332,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 탐색",
+              "short": "그래프 탐색"
+            },
+            {
+              "language": "en",
+              "name": "graph traversal",
+              "short": "traversal"
+            },
+            {
+              "language": "ja",
+              "name": "グラフの探索",
+              "short": "横断"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "bfs"
+            },
+            {
+              "alias": "dfs"
+            }
+          ]
+        },
+        {
+          "key": "bfs",
+          "isMeta": false,
+          "bojTagId": 126,
+          "problemCount": 1144,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "너비 우선 탐색",
+              "short": "너비 우선 탐색"
+            },
+            {
+              "language": "en",
+              "name": "breadth-first search",
+              "short": "bfs"
+            },
+            {
+              "language": "ja",
+              "name": "幅優先検索",
+              "short": "bfs"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "breadthfirst"
+            },
+            {
+              "alias": "breadth first"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1043,
+      "titleKo": "거짓말",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "거짓말",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 15606,
+      "level": 12,
+      "votedUserCount": 273,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.1564,
+      "official": true,
+      "tags": [
+        {
+          "key": "graphs",
+          "isMeta": false,
+          "bojTagId": 7,
+          "problemCount": 4666,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 이론",
+              "short": "그래프 이론"
+            },
+            {
+              "language": "en",
+              "name": "graph theory",
+              "short": "graph"
+            },
+            {
+              "language": "ja",
+              "name": "グラフ理論",
+              "short": "グラフ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "그래프이론"
+            },
+            {
+              "alias": "그래프"
+            }
+          ]
+        },
+        {
+          "key": "data_structures",
+          "isMeta": false,
+          "bojTagId": 175,
+          "problemCount": 4614,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "자료 구조",
+              "short": "자료 구조"
+            },
+            {
+              "language": "en",
+              "name": "data structures",
+              "short": "ds"
+            },
+            {
+              "language": "ja",
+              "name": "データ構造",
+              "short": "ds"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "자료구조"
+            },
+            {
+              "alias": "자구"
+            }
+          ]
+        },
+        {
+          "key": "graph_traversal",
+          "isMeta": false,
+          "bojTagId": 11,
+          "problemCount": 2332,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 탐색",
+              "short": "그래프 탐색"
+            },
+            {
+              "language": "en",
+              "name": "graph traversal",
+              "short": "traversal"
+            },
+            {
+              "language": "ja",
+              "name": "グラフの探索",
+              "short": "横断"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "bfs"
+            },
+            {
+              "alias": "dfs"
+            }
+          ]
+        },
+        {
+          "key": "disjoint_set",
+          "isMeta": false,
+          "bojTagId": 81,
+          "problemCount": 591,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "분리 집합",
+              "short": "분리 집합"
+            },
+            {
+              "language": "en",
+              "name": "disjoint set",
+              "short": "dsu"
+            },
+            {
+              "language": "ja",
+              "name": "素集合データ構造",
+              "short": "素集合データ構造"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "union"
+            },
+            {
+              "alias": "find"
+            },
+            {
+              "alias": "유니온"
+            },
+            {
+              "alias": "파인드"
+            },
+            {
+              "alias": "dsu"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1045,
+      "titleKo": "도로",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "도로",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 578,
+      "level": 15,
+      "votedUserCount": 53,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.1159,
+      "official": true,
+      "tags": [
+        {
+          "key": "graphs",
+          "isMeta": false,
+          "bojTagId": 7,
+          "problemCount": 4666,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 이론",
+              "short": "그래프 이론"
+            },
+            {
+              "language": "en",
+              "name": "graph theory",
+              "short": "graph"
+            },
+            {
+              "language": "ja",
+              "name": "グラフ理論",
+              "short": "グラフ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "그래프이론"
+            },
+            {
+              "alias": "그래프"
+            }
+          ]
+        },
+        {
+          "key": "greedy",
+          "isMeta": false,
+          "bojTagId": 33,
+          "problemCount": 3145,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그리디 알고리즘",
+              "short": "그리디 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "greedy",
+              "short": "greedy"
+            },
+            {
+              "language": "ja",
+              "name": "貪欲法",
+              "short": "貪欲法"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "탐욕법"
+            }
+          ]
+        },
+        {
+          "key": "mst",
+          "isMeta": false,
+          "bojTagId": 49,
+          "problemCount": 235,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "최소 스패닝 트리",
+              "short": "최소 스패닝 트리"
+            },
+            {
+              "language": "en",
+              "name": "minimum spanning tree",
+              "short": "mst"
+            },
+            {
+              "language": "ja",
+              "name": "最小全域木",
+              "short": "最小全域木"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1047,
+      "titleKo": "울타리",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "울타리",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 432,
+      "level": 16,
+      "votedUserCount": 62,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.956,
+      "official": true,
+      "tags": [
+        {
+          "key": "greedy",
+          "isMeta": false,
+          "bojTagId": 33,
+          "problemCount": 3145,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그리디 알고리즘",
+              "short": "그리디 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "greedy",
+              "short": "greedy"
+            },
+            {
+              "language": "ja",
+              "name": "貪欲法",
+              "short": "貪欲法"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "탐욕법"
+            }
+          ]
+        },
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1050,
+      "titleKo": "물약",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "물약",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 346,
+      "level": 16,
+      "votedUserCount": 38,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 6.422,
+      "official": true,
+      "tags": [
+        {
+          "key": "graphs",
+          "isMeta": false,
+          "bojTagId": 7,
+          "problemCount": 4666,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 이론",
+              "short": "그래프 이론"
+            },
+            {
+              "language": "en",
+              "name": "graph theory",
+              "short": "graph"
+            },
+            {
+              "language": "ja",
+              "name": "グラフ理論",
+              "short": "グラフ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "그래프이론"
+            },
+            {
+              "alias": "그래프"
+            }
+          ]
+        },
+        {
+          "key": "string",
+          "isMeta": false,
+          "bojTagId": 158,
+          "problemCount": 2775,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "문자열",
+              "short": "문자열"
+            },
+            {
+              "language": "en",
+              "name": "string",
+              "short": "string"
+            },
+            {
+              "language": "ja",
+              "name": "文字列",
+              "short": "文字列"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "스트링"
+            }
+          ]
+        },
+        {
+          "key": "parsing",
+          "isMeta": false,
+          "bojTagId": 96,
+          "problemCount": 525,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "파싱",
+              "short": "파싱"
+            },
+            {
+              "language": "en",
+              "name": "parsing",
+              "short": "parsing"
+            },
+            {
+              "language": "ja",
+              "name": "パージング",
+              "short": "パージング"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1053,
+      "titleKo": "팰린드롬 공장",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "팰린드롬 공장",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 648,
+      "level": 15,
+      "votedUserCount": 36,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.4306,
+      "official": true,
+      "tags": [
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1060,
+      "titleKo": "좋은 수",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "좋은 수",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 375,
+      "level": 15,
+      "votedUserCount": 47,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 4.1653,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "data_structures",
+          "isMeta": false,
+          "bojTagId": 175,
+          "problemCount": 4614,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "자료 구조",
+              "short": "자료 구조"
+            },
+            {
+              "language": "en",
+              "name": "data structures",
+              "short": "ds"
+            },
+            {
+              "language": "ja",
+              "name": "データ構造",
+              "short": "ds"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "자료구조"
+            },
+            {
+              "alias": "자구"
+            }
+          ]
+        },
+        {
+          "key": "sorting",
+          "isMeta": false,
+          "bojTagId": 97,
+          "problemCount": 2201,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "정렬",
+              "short": "정렬"
+            },
+            {
+              "language": "en",
+              "name": "sorting",
+              "short": "sorting"
+            },
+            {
+              "language": "ja",
+              "name": "ソート",
+              "short": "ソート"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "priority_queue",
+          "isMeta": false,
+          "bojTagId": 59,
+          "problemCount": 511,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "우선순위 큐",
+              "short": "우선순위 큐"
+            },
+            {
+              "language": "en",
+              "name": "priority queue",
+              "short": "priority queue"
+            },
+            {
+              "language": "ja",
+              "name": "優先度付きキュー",
+              "short": "優先度付きキュー"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "heap"
+            },
+            {
+              "alias": "힙"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1062,
+      "titleKo": "가르침",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "가르침",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 10580,
+      "level": 12,
+      "votedUserCount": 168,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.7413,
+      "official": true,
+      "tags": [
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        },
+        {
+          "key": "bitmask",
+          "isMeta": false,
+          "bojTagId": 14,
+          "problemCount": 882,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "비트마스킹",
+              "short": "비트마스킹"
+            },
+            {
+              "language": "en",
+              "name": "bitmask",
+              "short": "bitmask"
+            },
+            {
+              "language": "ja",
+              "name": "ビット表現",
+              "short": "ビット表現"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "비트필드"
+            },
+            {
+              "alias": "비트마스크"
+            }
+          ]
+        },
+        {
+          "key": "backtracking",
+          "isMeta": false,
+          "bojTagId": 5,
+          "problemCount": 614,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "백트래킹",
+              "short": "백트래킹"
+            },
+            {
+              "language": "en",
+              "name": "backtracking",
+              "short": "backtrack"
+            },
+            {
+              "language": "ja",
+              "name": "バックトラック法",
+              "short": "バックトラック"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "백트래킹"
+            },
+            {
+              "alias": "퇴각검색"
+            },
+            {
+              "alias": "퇴각 검색"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1069,
+      "titleKo": "집으로",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "집으로",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 2211,
+      "level": 13,
+      "votedUserCount": 149,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.8942,
+      "official": true,
+      "tags": [
+        {
+          "key": "ad_hoc",
+          "isMeta": false,
+          "bojTagId": 109,
+          "problemCount": 1961,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "애드 혹",
+              "short": "애드 혹"
+            },
+            {
+              "language": "en",
+              "name": "ad-hoc",
+              "short": "ad-hoc"
+            },
+            {
+              "language": "ja",
+              "name": "アドホック",
+              "short": "アドホック"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "geometry",
+          "isMeta": false,
+          "bojTagId": 100,
+          "problemCount": 1842,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "기하학",
+              "short": "기하학"
+            },
+            {
+              "language": "en",
+              "name": "geometry",
+              "short": "geom"
+            },
+            {
+              "language": "ja",
+              "name": "幾何学",
+              "short": "幾何"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "case_work",
+          "isMeta": false,
+          "bojTagId": 137,
+          "problemCount": 1066,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "많은 조건 분기",
+              "short": "많은 조건 분기"
+            },
+            {
+              "language": "en",
+              "name": "case work",
+              "short": "case work"
+            },
+            {
+              "language": "ja",
+              "name": "ケースワーク",
+              "short": "ケースワーク"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "케이스"
+            },
+            {
+              "alias": "케이스워크"
+            },
+            {
+              "alias": "케이스 워크"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1071,
+      "titleKo": "소트",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "소트",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 1379,
+      "level": 16,
+      "votedUserCount": 196,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.1965,
+      "official": true,
+      "tags": [
+        {
+          "key": "greedy",
+          "isMeta": false,
+          "bojTagId": 33,
+          "problemCount": 3145,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그리디 알고리즘",
+              "short": "그리디 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "greedy",
+              "short": "greedy"
+            },
+            {
+              "language": "ja",
+              "name": "貪欲法",
+              "short": "貪欲法"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "탐욕법"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1079,
+      "titleKo": "마피아",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "마피아",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 836,
+      "level": 14,
+      "votedUserCount": 34,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 4.2859,
+      "official": true,
+      "tags": [
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        },
+        {
+          "key": "backtracking",
+          "isMeta": false,
+          "bojTagId": 5,
+          "problemCount": 614,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "백트래킹",
+              "short": "백트래킹"
+            },
+            {
+              "language": "en",
+              "name": "backtracking",
+              "short": "backtrack"
+            },
+            {
+              "language": "ja",
+              "name": "バックトラック法",
+              "short": "バックトラック"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "백트래킹"
+            },
+            {
+              "alias": "퇴각검색"
+            },
+            {
+              "alias": "퇴각 검색"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1081,
+      "titleKo": "합",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "합",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 1369,
+      "level": 15,
+      "votedUserCount": 119,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.2484,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1082,
+      "titleKo": "방 번호",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "방 번호",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 2256,
+      "level": 13,
+      "votedUserCount": 122,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.9317,
+      "official": true,
+      "tags": [
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "greedy",
+          "isMeta": false,
+          "bojTagId": 33,
+          "problemCount": 3145,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그리디 알고리즘",
+              "short": "그리디 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "greedy",
+              "short": "greedy"
+            },
+            {
+              "language": "ja",
+              "name": "貪欲法",
+              "short": "貪欲法"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "탐욕법"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1083,
+      "titleKo": "소트",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "소트",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 3215,
+      "level": 12,
+      "votedUserCount": 136,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.4675,
+      "official": true,
+      "tags": [
+        {
+          "key": "greedy",
+          "isMeta": false,
+          "bojTagId": 33,
+          "problemCount": 3145,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그리디 알고리즘",
+              "short": "그리디 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "greedy",
+              "short": "greedy"
+            },
+            {
+              "language": "ja",
+              "name": "貪欲法",
+              "short": "貪欲法"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "탐욕법"
+            }
+          ]
+        },
+        {
+          "key": "sorting",
+          "isMeta": false,
+          "bojTagId": 97,
+          "problemCount": 2201,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "정렬",
+              "short": "정렬"
+            },
+            {
+              "language": "en",
+              "name": "sorting",
+              "short": "sorting"
+            },
+            {
+              "language": "ja",
+              "name": "ソート",
+              "short": "ソート"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1086,
+      "titleKo": "박성원",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "박성원",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 2835,
+      "level": 16,
+      "votedUserCount": 153,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": true,
+      "averageTries": 3.5432,
+      "official": true,
+      "tags": [
+        {
+          "key": "bitmask",
+          "isMeta": false,
+          "bojTagId": 14,
+          "problemCount": 882,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "비트마스킹",
+              "short": "비트마스킹"
+            },
+            {
+              "language": "en",
+              "name": "bitmask",
+              "short": "bitmask"
+            },
+            {
+              "language": "ja",
+              "name": "ビット表現",
+              "short": "ビット表現"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "비트필드"
+            },
+            {
+              "alias": "비트마스크"
+            }
+          ]
+        },
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "dp_bitfield",
+          "isMeta": false,
+          "bojTagId": 87,
+          "problemCount": 352,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "비트필드를 이용한 다이나믹 프로그래밍",
+              "short": "비트필드를 이용한 다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming using bitfield",
+              "short": "bitfield dp"
+            },
+            {
+              "language": "ja",
+              "name": "ビットを使用した動的計画法",
+              "short": "ビットdp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "비트마스크"
+            },
+            {
+              "alias": "비트dp"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1089,
+      "titleKo": "스타트링크 타워",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "스타트링크 타워",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 913,
+      "level": 12,
+      "votedUserCount": 49,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.391,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "probability",
+          "isMeta": false,
+          "bojTagId": 177,
+          "problemCount": 423,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "확률론",
+              "short": "확률론"
+            },
+            {
+              "language": "en",
+              "name": "probability theory",
+              "short": "probability"
+            },
+            {
+              "language": "ja",
+              "name": "確率論",
+              "short": "確率論"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "expected value"
+            },
+            {
+              "alias": "기대값"
+            },
+            {
+              "alias": "기댓값"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1091,
+      "titleKo": "카드 섞기",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "카드 섞기",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 1421,
+      "level": 12,
+      "votedUserCount": 47,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.9289,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "simulation",
+          "isMeta": false,
+          "bojTagId": 141,
+          "problemCount": 1264,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "시뮬레이션",
+              "short": "시뮬레이션"
+            },
+            {
+              "language": "en",
+              "name": "simulation",
+              "short": "simulation"
+            },
+            {
+              "language": "ja",
+              "name": "シミュレーション",
+              "short": "シミュレーション"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1095,
+      "titleKo": "마법의 구슬",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "마법의 구슬",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 247,
+      "level": 16,
+      "votedUserCount": 45,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 5.0769,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "number_theory",
+          "isMeta": false,
+          "bojTagId": 95,
+          "problemCount": 1724,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "정수론",
+              "short": "정수론"
+            },
+            {
+              "language": "en",
+              "name": "number theory",
+              "short": "number theory"
+            },
+            {
+              "language": "ja",
+              "name": "整数論",
+              "short": "整数論"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "primality_test",
+          "isMeta": false,
+          "bojTagId": 9,
+          "problemCount": 368,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "소수 판정",
+              "short": "소수 판정"
+            },
+            {
+              "language": "en",
+              "name": "primality test",
+              "short": "primality test"
+            },
+            {
+              "language": "ja",
+              "name": "素数性テスト",
+              "short": "素数性テスト"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "소수"
+            },
+            {
+              "alias": "소수판별"
+            },
+            {
+              "alias": "소수판정"
+            },
+            {
+              "alias": "prime"
+            }
+          ]
+        },
+        {
+          "key": "sieve",
+          "isMeta": false,
+          "bojTagId": 67,
+          "problemCount": 221,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "에라토스테네스의 체",
+              "short": "에라토스테네스의 체"
+            },
+            {
+              "language": "en",
+              "name": "sieve of eratosthenes",
+              "short": "eratosthenes"
+            },
+            {
+              "language": "ja",
+              "name": "エラトステネスの篩",
+              "short": "エラトステネス"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "sieve"
+            },
+            {
+              "alias": "에라체"
+            },
+            {
+              "alias": "소수"
+            },
+            {
+              "alias": "prime"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1097,
+      "titleKo": "마법의 문자열",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "마법의 문자열",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 467,
+      "level": 16,
+      "votedUserCount": 61,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.9058,
+      "official": true,
+      "tags": [
+        {
+          "key": "string",
+          "isMeta": false,
+          "bojTagId": 158,
+          "problemCount": 2775,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "문자열",
+              "short": "문자열"
+            },
+            {
+              "language": "en",
+              "name": "string",
+              "short": "string"
+            },
+            {
+              "language": "ja",
+              "name": "文字列",
+              "short": "文字列"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "스트링"
+            }
+          ]
+        },
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        },
+        {
+          "key": "kmp",
+          "isMeta": false,
+          "bojTagId": 40,
+          "problemCount": 106,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "KMP",
+              "short": "KMP"
+            },
+            {
+              "language": "en",
+              "name": "knuth–morris–pratt",
+              "short": "kmp"
+            },
+            {
+              "language": "ja",
+              "name": "クヌース–モリス–プラット法",
+              "short": "kmp"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1099,
+      "titleKo": "알 수 없는 문장",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "알 수 없는 문장",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 887,
+      "level": 13,
+      "votedUserCount": 43,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.7125,
+      "official": true,
+      "tags": [
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1101,
+      "titleKo": "카드 정리 1",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "카드 정리 1",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 356,
+      "level": 12,
+      "votedUserCount": 27,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.427,
+      "official": true,
+      "tags": [
+        {
+          "key": "greedy",
+          "isMeta": false,
+          "bojTagId": 33,
+          "problemCount": 3145,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그리디 알고리즘",
+              "short": "그리디 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "greedy",
+              "short": "greedy"
+            },
+            {
+              "language": "ja",
+              "name": "貪欲法",
+              "short": "貪欲法"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "탐욕법"
+            }
+          ]
+        },
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1102,
+      "titleKo": "발전소",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "발전소",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 2752,
+      "level": 16,
+      "votedUserCount": 180,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.6344,
+      "official": true,
+      "tags": [
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "bitmask",
+          "isMeta": false,
+          "bojTagId": 14,
+          "problemCount": 882,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "비트마스킹",
+              "short": "비트마스킹"
+            },
+            {
+              "language": "en",
+              "name": "bitmask",
+              "short": "bitmask"
+            },
+            {
+              "language": "ja",
+              "name": "ビット表現",
+              "short": "ビット表現"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "비트필드"
+            },
+            {
+              "alias": "비트마스크"
+            }
+          ]
+        },
+        {
+          "key": "dp_bitfield",
+          "isMeta": false,
+          "bojTagId": 87,
+          "problemCount": 352,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "비트필드를 이용한 다이나믹 프로그래밍",
+              "short": "비트필드를 이용한 다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming using bitfield",
+              "short": "bitfield dp"
+            },
+            {
+              "language": "ja",
+              "name": "ビットを使用した動的計画法",
+              "short": "ビットdp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "비트마스크"
+            },
+            {
+              "alias": "비트dp"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1103,
+      "titleKo": "게임",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "게임",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 4547,
+      "level": 14,
+      "votedUserCount": 183,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 4.4981,
+      "official": true,
+      "tags": [
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "graphs",
+          "isMeta": false,
+          "bojTagId": 7,
+          "problemCount": 4666,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 이론",
+              "short": "그래프 이론"
+            },
+            {
+              "language": "en",
+              "name": "graph theory",
+              "short": "graph"
+            },
+            {
+              "language": "ja",
+              "name": "グラフ理論",
+              "short": "グラフ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "그래프이론"
+            },
+            {
+              "alias": "그래프"
+            }
+          ]
+        },
+        {
+          "key": "graph_traversal",
+          "isMeta": false,
+          "bojTagId": 11,
+          "problemCount": 2332,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 탐색",
+              "short": "그래프 탐색"
+            },
+            {
+              "language": "en",
+              "name": "graph traversal",
+              "short": "traversal"
+            },
+            {
+              "language": "ja",
+              "name": "グラフの探索",
+              "short": "横断"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "bfs"
+            },
+            {
+              "alias": "dfs"
+            }
+          ]
+        },
+        {
+          "key": "dfs",
+          "isMeta": false,
+          "bojTagId": 127,
+          "problemCount": 918,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "깊이 우선 탐색",
+              "short": "깊이 우선 탐색"
+            },
+            {
+              "language": "en",
+              "name": "depth-first search",
+              "short": "dfs"
+            },
+            {
+              "language": "ja",
+              "name": "深さ優先探索",
+              "short": "dfs"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "depth first"
+            },
+            {
+              "alias": "depthfirst"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1106,
+      "titleKo": "호텔",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "호텔",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 5624,
+      "level": 12,
+      "votedUserCount": 168,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.5839,
+      "official": true,
+      "tags": [
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "knapsack",
+          "isMeta": false,
+          "bojTagId": 148,
+          "problemCount": 314,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "배낭 문제",
+              "short": "배낭"
+            },
+            {
+              "language": "en",
+              "name": "knapsack",
+              "short": "knapsack"
+            },
+            {
+              "language": "ja",
+              "name": "ナップサック問題",
+              "short": "ナップサック"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "냅색"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1107,
+      "titleKo": "리모컨",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "리모컨",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 22280,
+      "level": 12,
+      "votedUserCount": 314,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 4.2136,
+      "official": true,
+      "tags": [
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1111,
+      "titleKo": "IQ Test",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "IQ Test",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 3134,
+      "level": 13,
+      "votedUserCount": 190,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 4.4959,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "bruteforcing",
+          "isMeta": false,
+          "bojTagId": 125,
+          "problemCount": 2552,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "브루트포스 알고리즘",
+              "short": "브루트포스 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "bruteforcing",
+              "short": "bruteforce"
+            },
+            {
+              "language": "ja",
+              "name": "全探索",
+              "short": "全探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "완전탐색"
+            },
+            {
+              "alias": "완전 탐색"
+            },
+            {
+              "alias": "브루트포스"
+            },
+            {
+              "alias": "bruteforce"
+            },
+            {
+              "alias": "brute force"
+            },
+            {
+              "alias": "완탐"
+            }
+          ]
+        },
+        {
+          "key": "case_work",
+          "isMeta": false,
+          "bojTagId": 137,
+          "problemCount": 1066,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "많은 조건 분기",
+              "short": "많은 조건 분기"
+            },
+            {
+              "language": "en",
+              "name": "case work",
+              "short": "case work"
+            },
+            {
+              "language": "ja",
+              "name": "ケースワーク",
+              "short": "ケースワーク"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "케이스"
+            },
+            {
+              "alias": "케이스워크"
+            },
+            {
+              "alias": "케이스 워크"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1112,
+      "titleKo": "진법 변환",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "진법 변환",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 633,
+      "level": 13,
+      "votedUserCount": 61,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.2164,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "number_theory",
+          "isMeta": false,
+          "bojTagId": 95,
+          "problemCount": 1724,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "정수론",
+              "short": "정수론"
+            },
+            {
+              "language": "en",
+              "name": "number theory",
+              "short": "number theory"
+            },
+            {
+              "language": "ja",
+              "name": "整数論",
+              "short": "整数論"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1113,
+      "titleKo": "수영장 만들기",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "수영장 만들기",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 1754,
+      "level": 15,
+      "votedUserCount": 105,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.5091,
+      "official": true,
+      "tags": [
+        {
+          "key": "implementation",
+          "isMeta": false,
+          "bojTagId": 102,
+          "problemCount": 6320,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "구현",
+              "short": "구현"
+            },
+            {
+              "language": "en",
+              "name": "implementation",
+              "short": "impl"
+            },
+            {
+              "language": "ja",
+              "name": "実装",
+              "short": "impl"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "graphs",
+          "isMeta": false,
+          "bojTagId": 7,
+          "problemCount": 4666,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 이론",
+              "short": "그래프 이론"
+            },
+            {
+              "language": "en",
+              "name": "graph theory",
+              "short": "graph"
+            },
+            {
+              "language": "ja",
+              "name": "グラフ理論",
+              "short": "グラフ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "그래프이론"
+            },
+            {
+              "alias": "그래프"
+            }
+          ]
+        },
+        {
+          "key": "graph_traversal",
+          "isMeta": false,
+          "bojTagId": 11,
+          "problemCount": 2332,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 탐색",
+              "short": "그래프 탐색"
+            },
+            {
+              "language": "en",
+              "name": "graph traversal",
+              "short": "traversal"
+            },
+            {
+              "language": "ja",
+              "name": "グラフの探索",
+              "short": "横断"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "bfs"
+            },
+            {
+              "alias": "dfs"
+            }
+          ]
+        },
+        {
+          "key": "simulation",
+          "isMeta": false,
+          "bojTagId": 141,
+          "problemCount": 1264,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "시뮬레이션",
+              "short": "시뮬레이션"
+            },
+            {
+              "language": "en",
+              "name": "simulation",
+              "short": "simulation"
+            },
+            {
+              "language": "ja",
+              "name": "シミュレーション",
+              "short": "シミュレーション"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "bfs",
+          "isMeta": false,
+          "bojTagId": 126,
+          "problemCount": 1144,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "너비 우선 탐색",
+              "short": "너비 우선 탐색"
+            },
+            {
+              "language": "en",
+              "name": "breadth-first search",
+              "short": "bfs"
+            },
+            {
+              "language": "ja",
+              "name": "幅優先検索",
+              "short": "bfs"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "breadthfirst"
+            },
+            {
+              "alias": "breadth first"
+            }
+          ]
+        },
+        {
+          "key": "grid_graph",
+          "isMeta": false,
+          "bojTagId": 221,
+          "problemCount": 174,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "격자 그래프",
+              "short": "격자 그래프"
+            },
+            {
+              "language": "en",
+              "name": "grid graph",
+              "short": "grid graph"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1114,
+      "titleKo": "통나무 자르기",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "통나무 자르기",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 1128,
+      "level": 15,
+      "votedUserCount": 93,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 4.1046,
+      "official": true,
+      "tags": [
+        {
+          "key": "greedy",
+          "isMeta": false,
+          "bojTagId": 33,
+          "problemCount": 3145,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그리디 알고리즘",
+              "short": "그리디 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "greedy",
+              "short": "greedy"
+            },
+            {
+              "language": "ja",
+              "name": "貪欲法",
+              "short": "貪欲法"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "탐욕법"
+            }
+          ]
+        },
+        {
+          "key": "binary_search",
+          "isMeta": false,
+          "bojTagId": 12,
+          "problemCount": 1490,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "이분 탐색",
+              "short": "이분 탐색"
+            },
+            {
+              "language": "en",
+              "name": "binary search",
+              "short": "binary search"
+            },
+            {
+              "language": "ja",
+              "name": "二分探索",
+              "short": "二分探索"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "이분탐색"
+            },
+            {
+              "alias": "이진탐색"
+            }
+          ]
+        },
+        {
+          "key": "parametric_search",
+          "isMeta": false,
+          "bojTagId": 170,
+          "problemCount": 466,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "매개 변수 탐색",
+              "short": "매개 변수 탐색"
+            },
+            {
+              "language": "en",
+              "name": "parametric search",
+              "short": "parametric search"
+            },
+            {
+              "language": "ja",
+              "name": "parametric search",
+              "short": "parametric search"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "파라메트릭"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1115,
+      "titleKo": "순열",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "순열",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 313,
+      "level": 15,
+      "votedUserCount": 37,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 1.8882,
+      "official": true,
+      "tags": [
+        {
+          "key": "graphs",
+          "isMeta": false,
+          "bojTagId": 7,
+          "problemCount": 4666,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 이론",
+              "short": "그래프 이론"
+            },
+            {
+              "language": "en",
+              "name": "graph theory",
+              "short": "graph"
+            },
+            {
+              "language": "ja",
+              "name": "グラフ理論",
+              "short": "グラフ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "그래프이론"
+            },
+            {
+              "alias": "그래프"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1119,
+      "titleKo": "그래프",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "그래프",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 195,
+      "level": 15,
+      "votedUserCount": 29,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 3.841,
+      "official": true,
+      "tags": [
+        {
+          "key": "graphs",
+          "isMeta": false,
+          "bojTagId": 7,
+          "problemCount": 4666,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 이론",
+              "short": "그래프 이론"
+            },
+            {
+              "language": "en",
+              "name": "graph theory",
+              "short": "graph"
+            },
+            {
+              "language": "ja",
+              "name": "グラフ理論",
+              "short": "グラフ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "그래프이론"
+            },
+            {
+              "alias": "그래프"
+            }
+          ]
+        },
+        {
+          "key": "data_structures",
+          "isMeta": false,
+          "bojTagId": 175,
+          "problemCount": 4614,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "자료 구조",
+              "short": "자료 구조"
+            },
+            {
+              "language": "en",
+              "name": "data structures",
+              "short": "ds"
+            },
+            {
+              "language": "ja",
+              "name": "データ構造",
+              "short": "ds"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "자료구조"
+            },
+            {
+              "alias": "자구"
+            }
+          ]
+        },
+        {
+          "key": "graph_traversal",
+          "isMeta": false,
+          "bojTagId": 11,
+          "problemCount": 2332,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 탐색",
+              "short": "그래프 탐색"
+            },
+            {
+              "language": "en",
+              "name": "graph traversal",
+              "short": "traversal"
+            },
+            {
+              "language": "ja",
+              "name": "グラフの探索",
+              "short": "横断"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "bfs"
+            },
+            {
+              "alias": "dfs"
+            }
+          ]
+        },
+        {
+          "key": "dfs",
+          "isMeta": false,
+          "bojTagId": 127,
+          "problemCount": 918,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "깊이 우선 탐색",
+              "short": "깊이 우선 탐색"
+            },
+            {
+              "language": "en",
+              "name": "depth-first search",
+              "short": "dfs"
+            },
+            {
+              "language": "ja",
+              "name": "深さ優先探索",
+              "short": "dfs"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "depth first"
+            },
+            {
+              "alias": "depthfirst"
+            }
+          ]
+        },
+        {
+          "key": "disjoint_set",
+          "isMeta": false,
+          "bojTagId": 81,
+          "problemCount": 591,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "분리 집합",
+              "short": "분리 집합"
+            },
+            {
+              "language": "en",
+              "name": "disjoint set",
+              "short": "dsu"
+            },
+            {
+              "language": "ja",
+              "name": "素集合データ構造",
+              "short": "素集合データ構造"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "union"
+            },
+            {
+              "alias": "find"
+            },
+            {
+              "alias": "유니온"
+            },
+            {
+              "alias": "파인드"
+            },
+            {
+              "alias": "dsu"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1131,
+      "titleKo": "숫자",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "숫자",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 323,
+      "level": 16,
+      "votedUserCount": 41,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.8359,
+      "official": true,
+      "tags": [
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "graphs",
+          "isMeta": false,
+          "bojTagId": 7,
+          "problemCount": 4666,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 이론",
+              "short": "그래프 이론"
+            },
+            {
+              "language": "en",
+              "name": "graph theory",
+              "short": "graph"
+            },
+            {
+              "language": "ja",
+              "name": "グラフ理論",
+              "short": "グラフ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "그래프이론"
+            },
+            {
+              "alias": "그래프"
+            }
+          ]
+        },
+        {
+          "key": "graph_traversal",
+          "isMeta": false,
+          "bojTagId": 11,
+          "problemCount": 2332,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그래프 탐색",
+              "short": "그래프 탐색"
+            },
+            {
+              "language": "en",
+              "name": "graph traversal",
+              "short": "traversal"
+            },
+            {
+              "language": "ja",
+              "name": "グラフの探索",
+              "short": "横断"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "bfs"
+            },
+            {
+              "alias": "dfs"
+            }
+          ]
+        },
+        {
+          "key": "dfs",
+          "isMeta": false,
+          "bojTagId": 127,
+          "problemCount": 918,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "깊이 우선 탐색",
+              "short": "깊이 우선 탐색"
+            },
+            {
+              "language": "en",
+              "name": "depth-first search",
+              "short": "dfs"
+            },
+            {
+              "language": "ja",
+              "name": "深さ優先探索",
+              "short": "dfs"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "depth first"
+            },
+            {
+              "alias": "depthfirst"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1132,
+      "titleKo": "합",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "합",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 1651,
+      "level": 13,
+      "votedUserCount": 136,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.7583,
+      "official": true,
+      "tags": [
+        {
+          "key": "greedy",
+          "isMeta": false,
+          "bojTagId": 33,
+          "problemCount": 3145,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그리디 알고리즘",
+              "short": "그리디 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "greedy",
+              "short": "greedy"
+            },
+            {
+              "language": "ja",
+              "name": "貪欲法",
+              "short": "貪欲法"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "탐욕법"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1133,
+      "titleKo": "반복되지 않는 단어",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "반복되지 않는 단어",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 101,
+      "level": 16,
+      "votedUserCount": 13,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.0594,
+      "official": true,
+      "tags": [
+        {
+          "key": "backtracking",
+          "isMeta": false,
+          "bojTagId": 5,
+          "problemCount": 614,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "백트래킹",
+              "short": "백트래킹"
+            },
+            {
+              "language": "en",
+              "name": "backtracking",
+              "short": "backtrack"
+            },
+            {
+              "language": "ja",
+              "name": "バックトラック法",
+              "short": "バックトラック"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "백트래킹"
+            },
+            {
+              "alias": "퇴각검색"
+            },
+            {
+              "alias": "퇴각 검색"
+            }
+          ]
+        },
+        {
+          "key": "recursion",
+          "isMeta": false,
+          "bojTagId": 62,
+          "problemCount": 293,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "재귀",
+              "short": "재귀"
+            },
+            {
+              "language": "en",
+              "name": "recursion",
+              "short": "recursion"
+            },
+            {
+              "language": "ja",
+              "name": "再帰",
+              "short": "再帰"
+            }
+          ],
+          "aliases": []
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1135,
+      "titleKo": "뉴스 전하기",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "뉴스 전하기",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 2381,
+      "level": 14,
+      "votedUserCount": 185,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.0055,
+      "official": true,
+      "tags": [
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "greedy",
+          "isMeta": false,
+          "bojTagId": 33,
+          "problemCount": 3145,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "그리디 알고리즘",
+              "short": "그리디 알고리즘"
+            },
+            {
+              "language": "en",
+              "name": "greedy",
+              "short": "greedy"
+            },
+            {
+              "language": "ja",
+              "name": "貪欲法",
+              "short": "貪欲法"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "탐욕법"
+            }
+          ]
+        },
+        {
+          "key": "sorting",
+          "isMeta": false,
+          "bojTagId": 97,
+          "problemCount": 2201,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "정렬",
+              "short": "정렬"
+            },
+            {
+              "language": "en",
+              "name": "sorting",
+              "short": "sorting"
+            },
+            {
+              "language": "ja",
+              "name": "ソート",
+              "short": "ソート"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "trees",
+          "isMeta": false,
+          "bojTagId": 120,
+          "problemCount": 1728,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "트리",
+              "short": "트리"
+            },
+            {
+              "language": "en",
+              "name": "tree",
+              "short": "tree"
+            },
+            {
+              "language": "ja",
+              "name": "木",
+              "short": "木"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "trees"
+            }
+          ]
+        },
+        {
+          "key": "dp_tree",
+          "isMeta": false,
+          "bojTagId": 92,
+          "problemCount": 536,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "트리에서의 다이나믹 프로그래밍",
+              "short": "트리에서의 다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming on trees",
+              "short": "tree dp"
+            },
+            {
+              "language": "ja",
+              "name": "木上の動的計画法",
+              "short": "tree dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "트리dp"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1139,
+      "titleKo": "울타리",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "울타리",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 175,
+      "level": 15,
+      "votedUserCount": 15,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.2457,
+      "official": true,
+      "tags": [
+        {
+          "key": "bitmask",
+          "isMeta": false,
+          "bojTagId": 14,
+          "problemCount": 882,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "비트마스킹",
+              "short": "비트마스킹"
+            },
+            {
+              "language": "en",
+              "name": "bitmask",
+              "short": "bitmask"
+            },
+            {
+              "language": "ja",
+              "name": "ビット表現",
+              "short": "ビット表現"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "비트필드"
+            },
+            {
+              "alias": "비트마스크"
+            }
+          ]
+        },
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "dp_bitfield",
+          "isMeta": false,
+          "bojTagId": 87,
+          "problemCount": 352,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "비트필드를 이용한 다이나믹 프로그래밍",
+              "short": "비트필드를 이용한 다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming using bitfield",
+              "short": "bitfield dp"
+            },
+            {
+              "language": "ja",
+              "name": "ビットを使用した動的計画法",
+              "short": "ビットdp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "비트마스크"
+            },
+            {
+              "alias": "비트dp"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "problemId": 1146,
+      "titleKo": "지그재그 서기",
+      "titles": [
+        {
+          "language": "ko",
+          "languageDisplayName": "ko",
+          "title": "지그재그 서기",
+          "isOriginal": true
+        }
+      ],
+      "isSolvable": true,
+      "isPartial": false,
+      "acceptedUserCount": 697,
+      "level": 16,
+      "votedUserCount": 89,
+      "sprout": false,
+      "givesNoRating": false,
+      "isLevelLocked": false,
+      "averageTries": 2.3214,
+      "official": true,
+      "tags": [
+        {
+          "key": "math",
+          "isMeta": false,
+          "bojTagId": 124,
+          "problemCount": 7444,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "수학",
+              "short": "수학"
+            },
+            {
+              "language": "en",
+              "name": "mathematics",
+              "short": "math"
+            },
+            {
+              "language": "ja",
+              "name": "数学",
+              "short": "数学"
+            }
+          ],
+          "aliases": []
+        },
+        {
+          "key": "dp",
+          "isMeta": false,
+          "bojTagId": 25,
+          "problemCount": 4721,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "다이나믹 프로그래밍",
+              "short": "다이나믹 프로그래밍"
+            },
+            {
+              "language": "en",
+              "name": "dynamic programming",
+              "short": "dp"
+            },
+            {
+              "language": "ja",
+              "name": "動的計画法",
+              "short": "dp"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "동적계획법"
+            },
+            {
+              "alias": "동적 계획법"
+            },
+            {
+              "alias": "다이나믹프로그래밍"
+            }
+          ]
+        },
+        {
+          "key": "combinatorics",
+          "isMeta": false,
+          "bojTagId": 6,
+          "problemCount": 1151,
+          "displayNames": [
+            {
+              "language": "ko",
+              "name": "조합론",
+              "short": "조합론"
+            },
+            {
+              "language": "en",
+              "name": "combinatorics",
+              "short": "combinatorics"
+            },
+            {
+              "language": "ja",
+              "name": "組み合わせ",
+              "short": "組み合わせ"
+            }
+          ],
+          "aliases": [
+            {
+              "alias": "combination"
+            },
+            {
+              "alias": "permutation"
+            },
+            {
+              "alias": "probability"
+            },
+            {
+              "alias": "확률"
+            },
+            {
+              "alias": "순열"
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    }
+  ]
+}
