@@ -1,48 +1,24 @@
-"""
-1. python test.py 실행
-  - 백준 로그인
-  - 문제 분류 json 폴더 생성(주최자 한정)
-
-2. 모의 코딩 테스트 디렉토리를 참가자에게 공유한다.
-   - 사용자 역시 백준 로그인 필요
-
-3. 난이도 별 티어 분포
-  - veasy:B5~B3
-  - easy:B2~S4
-  - mid:S3~G5
-  - hard:G4~P5
-  - insane:P4~D5
-
-4. 시험 난이도 별 문제 구성
-  - 문제는 기본 3문제 구성
-  - easy : veasy + easy + mid
-  - mid : easy + mid + hard
-  - hard : mid + hard + insane
-
-5. 시험 응시 주의 사항
-  - 시험 코드는 정해진 규칙이 없습니다. (추천 예시 : SSAFY_python_20250821)
-  - 난이도별 
-"""
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 """
-Mock CT Bundle (N-buckets) w/ Exam Code & Snapshot Pools for BOJ (solved.ac)
+test.py — one-shot 부트스트랩 + BOJ 로그인 + 시험 세팅 스크립트
 
-- 5단계 고정 버킷(veasy/easy/mid/hard/insane)을 공통으로 사용
-- 실행 시 인자 없으면 exam-code / language / difficulty를 대화형으로 입력받아 진행
-- 프리셋:
-  * easy  -> veasy, easy, mid
-  * mid   -> easy,  mid,  hard
-  * hard  -> mid,   hard, insane
-- '풀 스냅샷'(JSON)에서 exam-code로 결정론적 선택 → 전원이 동일 결과
-- 고급: --bucket "name:TIER_RANGE:COUNT" 사용 가능
-
-주의: 언어를 지정해 사용할 때는 ./.boj/config.yaml 또는 ~/.boj/config.yaml 에 해당 filetype이 정의돼 있어야 합니다.
-(없어도 본 스크립트가 1회 우회 재시도 및 폴더 강제 생성까지 시도합니다.)
+흐름
+1) 필요한 패키지 설치 (requests / PyYAML / html2text / boj-cli)
+2) BOJ 로그인(최초 1회) — 이후 세션 유지
+3) 시험 세팅 (exam-code / 난이도 / 언어)
+   - solved.ac에서 버킷별 후보 수집(또는 기존 pool/ 재사용)
+   - 결정론적으로 문제 3개 선택
+   - problems/<문제번호>/ 생성 + main 파일 + PROBLEM.md + testcases 시도
+   - .boj/config.yaml 자동 구성(언어별 run 명령 포함)
+4) 안내 출력
+   - 각 문제 폴더로 이동해서 `boj run` → 풀이 후 `boj submit` 바로 가능(로그인 완료되어 있음)
 """
 
-# ---- Self bootstrap: auto-install deps if missing (run before third-party imports) ----
+# ------------------------------------------------------------
+# 0) 부트스트랩: 패키지 설치
+# ------------------------------------------------------------
 import sys, subprocess, shutil, os, platform, time, re, json, random, hashlib
 from datetime import datetime
 from html import unescape
@@ -55,7 +31,7 @@ def _pip_install(*pkgs):
         print(f"[error] pip install 실패: {pkgs}\n{e}")
         raise
 
-# 1) Python 패키지 확인/설치
+# 필수 파이썬 패키지
 try:
     import requests  # noqa
 except Exception:
@@ -74,17 +50,16 @@ except Exception:
     _pip_install("html2text>=2020.1.16")
     import html2text
 
-# 2) boj-cli 존재 확인/설치 (CLI)
+# boj-cli 확인/설치
 if shutil.which("boj") is None:
     _pip_install("boj-cli>=1.2")
 
-# boj 실행 커맨드 결정: PATH에 boj가 없으면 python -m boj 로 실행
+# boj 실행 커맨드 (PATH에 없으면 python -m boj)
 BOJ_CMD = ["boj"] if shutil.which("boj") else [sys.executable, "-m", "boj"]
 
-import argparse  # noqa
-
-# ------------------------------ solved.ac ------------------------------
-
+# ------------------------------------------------------------
+# 1) solved.ac / 공통 유틸
+# ------------------------------------------------------------
 SOLVED_AC_SEARCH = "https://solved.ac/api/v3/search/problem"
 
 TIER_ORDER = [
@@ -117,8 +92,7 @@ def parse_tier_range(expr: str) -> Tuple[int, int]:
         if a not in TIER_TO_LEVEL or b not in TIER_TO_LEVEL:
             raise ValueError(f"잘못된 tier 표기: {expr}")
         lo, hi = TIER_TO_LEVEL[a], TIER_TO_LEVEL[b]
-        if lo > hi:
-            lo, hi = hi, lo
+        if lo > hi: lo, hi = hi, lo
         return lo, hi
     else:
         if s not in TIER_TO_LEVEL:
@@ -135,23 +109,20 @@ def build_query(tier_expr: str, tags: List[str]) -> str:
     q = [f"tier:{lo}..{hi}"]
     for t in tags:
         t = t.strip()
-        if t:
-            q.append(f"tag:{t}")
+        if t: q.append(f"tag:{t}")
     return " ".join(q)
 
 def fetch_candidates(query: str, max_pages: int = 3, size: int = 100) -> List[Dict]:
     items_all: List[Dict] = []
-    for page in range(1, max_pages + 1):
+    for page in range(1, max_pages+1):
         r = requests.get(SOLVED_AC_SEARCH, params={"query": query, "page": page, "size": size}, timeout=12)
         if r.status_code != 200:
-            print(f"[warn] solved.ac 응답 {r.status_code}: {r.text[:200]}", file=sys.stderr)
+            print(f"[warn] solved.ac 응답 {r.status_code}: {r.text[:200]}")
             break
         data = r.json()
         items = data.get("items", [])
         items_all.extend(items)
-        if len(items) < size:
-            break
-    # problemId 정렬 + 중복 제거 (결정론)
+        if len(items) < size: break
     items_all.sort(key=lambda x: x.get("problemId", 0))
     uniq = {}
     for it in items_all:
@@ -171,10 +142,10 @@ def load_json(path: str, default=None):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-# ------------------------------ BOJ config helpers ------------------------------
-
+# ------------------------------------------------------------
+# 2) BOJ 설정 파일(.boj/config.yaml) 유틸
+# ------------------------------------------------------------
 def find_boj_config_path() -> str:
-    """로컬 ./.boj/config.yaml → 홈 ~/.boj/config.yaml 순으로 탐색."""
     cwd_conf = os.path.join(os.getcwd(), ".boj", "config.yaml")
     if os.path.exists(cwd_conf):
         return cwd_conf
@@ -207,10 +178,8 @@ def resolve_problem_dir(problem_id: int) -> str:
     return os.path.join(base_dir, str(problem_id))
 
 def switch_boj_default_filetype(lang_key: str):
-    """로컬/홈 설정을 보강하고 기본 filetype을 lang_key로 설정."""
     conf_path = find_boj_config_path()
     os.makedirs(os.path.dirname(conf_path), exist_ok=True)
-
     try:
         with open(conf_path, "r", encoding="utf-8") as f:
             conf = yaml.safe_load(f) or {}
@@ -224,18 +193,16 @@ def switch_boj_default_filetype(lang_key: str):
     conf["workspace"].setdefault("ongoing_dir", "problems")
     conf["workspace"].setdefault("archive_dir", "solved")
 
-    ft = conf["filetype"]
-
-    # OS별 python 실행 커맨드 자동 설정
     is_windows = platform.system().lower().startswith("win")
     py_run = "python main.py" if is_windows else "python3 main.py"
     cpp_run = "main.exe" if is_windows else "./main"
 
+    ft = conf["filetype"]
     ft.setdefault("py", {
-        "language": "python3",     # BOJ 제출 언어명(소문자)
+        "language": "python3",
         "main": "main.py",
         "compile": "",
-        "run": py_run,             # $file 사용하지 않음
+        "run": py_run,
     })
     ft.setdefault("cpp", {
         "language": "c++17",
@@ -250,7 +217,7 @@ def switch_boj_default_filetype(lang_key: str):
         "run": "java Main",
     })
 
-    if lang_key in ("py", "cpp", "java"):
+    if lang_key in ("py","cpp","java"):
         conf["general"]["default_filetype"] = lang_key
 
     with open(conf_path, "w", encoding="utf-8") as f:
@@ -258,16 +225,60 @@ def switch_boj_default_filetype(lang_key: str):
 
     print(f"[ok] {conf_path} 기본 언어를 '{lang_key}'로 설정했습니다.")
 
-# ------------------------------ BOJ problem page → Markdown ------------------------------
+# ------------------------------------------------------------
+# 3) BOJ 로그인 / 실행 유틸
+# ------------------------------------------------------------
+def _run(cmd, cwd=None):
+    return subprocess.run(cmd, check=False, capture_output=True, text=True, cwd=cwd)
 
+def is_boj_logged_in() -> bool | None:
+    """
+    boj-cli가 'whoami'를 지원하면 True/False를 반환.
+    지원하지 않으면 None을 반환(확인 불가).
+    """
+    help_out = _run(BOJ_CMD + ["help"])
+    if help_out.returncode == 0 and "whoami" in (help_out.stdout or ""):
+        r = _run(BOJ_CMD + ["whoami"])
+        # whoami가 존재할 때만 판정. 출력이 있으면 로그인된 것으로 간주.
+        return r.returncode == 0 and bool((r.stdout or "").strip())
+    # whoami 미지원 버전: 확인 불가
+    return None
+
+def ensure_boj_login():
+    """
+    1) whoami가 있으면 먼저 체크해서 이미 로그인되어 있으면 패스
+    2) 아니면(미지원/불확실) 'boj login' 실행
+    3) 'boj login'이 0으로 끝나면 로그인 성공으로 간주(재확인 생략)
+    """
+    status = is_boj_logged_in()
+    if status is True:
+        print("[i] 이미 백준에 로그인되어 있습니다.")
+        return
+
+    if status is None:
+        print("[i] 백준 로그인 상태를 확인할 수 없습니다. 로그인 절차를 진행합니다.")
+    else:
+        print("[i] 백준 로그인이 필요합니다. 계정 정보를 입력해 주세요.")
+
+    r = _run(BOJ_CMD + ["login"])
+    if r.returncode != 0:
+        # boj-cli가 브라우저 로그인 실패시 여기로 옴
+        msg = (r.stderr or r.stdout or "").strip()
+        if msg:
+            print(msg)
+        raise SystemExit("[err] 로그인 실패. 다시 시도해 주세요.")
+
+    # 여기서는 boj login이 성공 종료됨 → 바로 성공으로 간주
+    print("[ok] 로그인 성공! 이제 'boj submit'이 즉시 가능합니다.")
+
+# ------------------------------------------------------------
+# 4) BOJ 문제 페이지 → Markdown
+# ------------------------------------------------------------
 def _http_get_with_headers(url: str, tries: int = 3, timeout: int = 12) -> str:
-    """브라우저 헤더로 요청하여 403 회피 + 재시도."""
     headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/122.0.0.0 Safari/537.36"
-        ),
+        "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                       "AppleWebKit/537.36 (KHTML, like Gecko) "
+                       "Chrome/122.0.0.0 Safari/537.36"),
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
         "Referer": "https://www.acmicpc.net/",
@@ -287,25 +298,16 @@ def _http_get_with_headers(url: str, tries: int = 3, timeout: int = 12) -> str:
     raise RuntimeError(f"GET 실패: {last_err}")
 
 def _extract_div(html: str, div_id: str) -> str:
-    """<div id="...">...</div> 블록 추출 (BOJ 구조 기준)."""
-    pattern = rf'<div id="{re.escape(div_id)}"[^>]*>(.*?)</div>'
-    m = re.search(pattern, html, re.S | re.I)
+    m = re.search(rf'<div id="{re.escape(div_id)}"[^>]*>(.*?)</div>', html, re.S | re.I)
     return m.group(1).strip() if m else ""
 
 def fetch_problem_sections(problem_id: int) -> Dict[str, str]:
-    """
-    BOJ 문제 페이지를 가져와 Markdown으로 변환:
-    - 설명(problem_description), 입력(problem_input), 출력(problem_output)
-    - 예제 입력/출력 (sample-input-N / sample-output-N)
-    """
     url = f"https://www.acmicpc.net/problem/{problem_id}"
     try:
         html = _http_get_with_headers(url)
-
         desc_html   = _extract_div(html, "problem_description")
         input_html  = _extract_div(html, "problem_input")
         output_html = _extract_div(html, "problem_output")
-
         sample_inputs  = re.findall(r'<pre[^>]*id="sample-input-\d+"[^>]*>(.*?)</pre>', html, re.S | re.I)
         sample_outputs = re.findall(r'<pre[^>]*id="sample-output-\d+"[^>]*>(.*?)</pre>', html, re.S | re.I)
 
@@ -314,8 +316,7 @@ def fetch_problem_sections(problem_id: int) -> Dict[str, str]:
         h2t.body_width = 0
 
         def to_md(h: str) -> str:
-            if not h:
-                return ""
+            if not h: return ""
             return h2t.handle(unescape(h)).strip()
 
         return {
@@ -337,7 +338,6 @@ def fetch_problem_sections(problem_id: int) -> Dict[str, str]:
         }
 
 def write_problem_md(problem_dir: str, problem_id: int, title: str):
-    """PROBLEM.md를 설명/입력/출력/예제까지 작성."""
     sec = fetch_problem_sections(problem_id)
     lines: List[str] = []
     lines.append(f"# [{problem_id}] {title}")
@@ -358,7 +358,7 @@ def write_problem_md(problem_dir: str, problem_id: int, title: str):
         nmax = max(len(sec["samples_in"]), len(sec["samples_out"]))
         for i in range(nmax):
             sin = sec["samples_in"][i] if i < len(sec["samples_in"]) else ""
-            sout = sec["samples_out"][i] if i < len(sec["samples_out"]) else ""
+            sout= sec["samples_out"][i] if i < len(sec["samples_out"]) else ""
             n = i + 1
             if sin:
                 lines.append(f"\n### 예제 입력 {n}\n")
@@ -370,85 +370,67 @@ def write_problem_md(problem_dir: str, problem_id: int, title: str):
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
-# ------------------------------ BOJ workspace prep ------------------------------
-
+# ------------------------------------------------------------
+# 5) 문제 폴더 준비(boj add + 보강)
+# ------------------------------------------------------------
 def ensure_boj_add(problem_id: int,
                    lang_flag: str = None,
                    title: str = "",
-                   make_aliases: bool = False,
-                   alias_name: str = None,
                    save_pdf: bool = False):
-    """
-    - 1차: boj add 시도 (성공 시 그 경로 사용)
-    - 실패해도: ongoing_dir 아래에 문제 폴더 강제 생성 + main/PROBLEM.md/testcases 보장
-    """
-    def _run(cmd, cwd=None):
+    def _run_local(cmd, cwd=None):
         return subprocess.run(cmd, check=False, capture_output=True, text=True, cwd=cwd)
 
     problem_dir = resolve_problem_dir(problem_id)
     os.makedirs(problem_dir, exist_ok=True)
 
-    # 1) boj add 시도
+    # boj add 시도
     add_cmd = BOJ_CMD + ["add", str(problem_id)]
     if lang_flag:
         add_cmd = BOJ_CMD + ["add", "--type", lang_flag, str(problem_id)]
-    res = _run(add_cmd)
-
+    res = _run_local(add_cmd)
     if res.returncode != 0:
         # --type 없이 재시도
-        res2 = _run(BOJ_CMD + ["add", str(problem_id)])
+        res2 = _run_local(BOJ_CMD + ["add", str(problem_id)])
         if res2.returncode != 0:
             print(f"[warn] boj add 실패. 직접 폴더/파일 생성으로 진행합니다.\n{(res2.stderr or res.stderr).strip()}")
-            # === Fallback: 최소 파일 보장 ===
+            # 최소 파일 보장
             lang_map = {"py": "main.py", "cpp": "main.cc", "java": "Main.java"}
             filename = lang_map.get(lang_flag or "py", "main.py")
             main_path = os.path.join(problem_dir, filename)
             if not os.path.exists(main_path):
                 open(main_path, "w", encoding="utf-8").close()
-            tc_dir = os.path.join(problem_dir, "testcases")
-            os.makedirs(tc_dir, exist_ok=True)
-        # 성공했을 수 있으니 문제 디렉토리 재계산(ongoing_dir 반영)
+            os.makedirs(os.path.join(problem_dir, "testcases"), exist_ok=True)
+        # ongoing_dir 반영
         problem_dir = resolve_problem_dir(problem_id)
 
-    # 2) 보호적 생성
-    if not os.path.isdir(problem_dir):
-        os.makedirs(problem_dir, exist_ok=True)
+    # 언어별 main 파일 보호 생성
     lang_map = {"py": "main.py", "cpp": "main.cc", "java": "Main.java"}
     if (lang_flag in lang_map) and not os.path.exists(os.path.join(problem_dir, lang_map[lang_flag])):
         open(os.path.join(problem_dir, lang_map[lang_flag]), "w", encoding="utf-8").close()
 
-    # 3) PROBLEM.md 작성 (본문+입출력+예제까지)
+    # PROBLEM.md 작성
     write_problem_md(problem_dir, problem_id, title or "")
 
-    # 4) 샘플 케이스 시도 (실패해도 통과)
+    # 샘플 케이스(가능 시)
     tc_dir = os.path.join(problem_dir, "testcases")
     if not os.path.isdir(tc_dir) or not os.listdir(tc_dir):
-        res3 = _run(BOJ_CMD + ["case"], cwd=problem_dir)
+        res3 = _run_local(BOJ_CMD + ["case"], cwd=problem_dir)
         if res3.returncode != 0:
             os.makedirs(tc_dir, exist_ok=True)
 
-    # 5) (옵션) PDF 저장
-    url = f"https://www.acmicpc.net/problem/{problem_id}"
+    # (옵션) PDF 저장
     if save_pdf and shutil.which("wkhtmltopdf"):
         try:
-            subprocess.run(["wkhtmltopdf", url, os.path.join(problem_dir, "statement.pdf")], check=True)
+            subprocess.run(["wkhtmltopdf",
+                            f"https://www.acmicpc.net/problem/{problem_id}",
+                            os.path.join(problem_dir, "statement.pdf")],
+                           check=True)
         except Exception as e:
             print(f"[warn] PDF 생성 실패: {e}")
 
-    # 6) (옵션) 별칭 폴더
-    if make_aliases and alias_name:
-        alias_path = os.path.join(os.getcwd(), alias_name)
-        if not os.path.exists(alias_path):
-            try:
-                if platform.system().lower().startswith("win"):
-                    subprocess.run(["cmd", "/c", "mklink", "/J", alias_path, problem_dir], check=True)
-                else:
-                    os.symlink(problem_dir, alias_path)
-            except Exception as e:
-                print(f"[warn] alias 생성 실패: {e}")
-
-# ------------------------------ announce ------------------------------
-
+# ------------------------------------------------------------
+# 6) 시험 공지 마크다운
+# ------------------------------------------------------------
 def md_announce(picked: List[Dict], duration: int, buckets_info: List[Tuple[str,str,int]]) -> str:
     lines = []
     lines.append("# 모의 코딩테스트")
@@ -461,27 +443,24 @@ def md_announce(picked: List[Dict], duration: int, buckets_info: List[Tuple[str,
         lines.append(f"- {name}: {rng} x {cnt}")
     lines.append("")
     lines.append("## 규칙")
-    lines.append("- VSCode: 해당 문제 디렉토리로 이동하기")
-    lines.append("- VSCode: 이동 후 main 파일을 수정하기")
-    lines.append("- VSCode: `boj run`으로 샘플 테스트하기")
-    lines.append("- VSCode: 'boj submit`으로 제출")
+    lines.append("- 각 문제 폴더로 이동해서 main 수정하기")
+    lines.append("- 문서 위치에서 `boj run`으로 샘플 테스트")
+    lines.append("- 풀이 완료 후 `boj submit`으로 제출")
     lines.append("- 인터넷 검색은 표준 라이브러리 문서 정도로 제한")
-    lines.append("- 종료 후 5분 내 풀이 요약 및 토론")
     lines.append("")
     lines.append("## 문제")
     for i, p in enumerate(picked, 1):
-        pid = p["problemId"]
-        title = p.get("titleKo") or p.get("title") or ""
+        pid = p["problemId"]; title = p.get("titleKo") or p.get("title") or ""
         level = p.get("level") or 0
         lines.append(f"**Q{i}. [{pid}] {title}** ({tier_name(level)})  \nhttps://www.acmicpc.net/problem/{pid}")
     return "\n".join(lines)
 
-# ------------------------------ selection core ------------------------------
-
+# ------------------------------------------------------------
+# 7) 선택/결정론
+# ------------------------------------------------------------
 def deterministic_pick(pool: List[Dict], exam_code: str, salt: str, count: int) -> List[Dict]:
     picked = []
-    if not pool or count <= 0:
-        return picked
+    if not pool or count <= 0: return picked
     h = hashlib.blake2b(digest_size=16)
     h.update((exam_code + "|" + salt).encode("utf-8"))
     seed = int.from_bytes(h.digest(), "big")
@@ -492,23 +471,6 @@ def deterministic_pick(pool: List[Dict], exam_code: str, salt: str, count: int) 
         picked.append(pool[i])
     return picked
 
-def parse_bucket_arg(s: str) -> Tuple[str, str, int]:
-    raw = s.strip()
-    parts = raw.split(":")
-    if len(parts) != 3:
-        raise ValueError(f"--bucket 형식 오류: {s} (예: name:B4~S3:1)")
-    name, rng, cnt = parts[0].strip(), parts[1].strip(), parts[2].strip()
-    if not name:
-        raise ValueError(f"--bucket 이름이 비었습니다: {s}")
-    try:
-        cnt = int(cnt)
-    except:
-        raise ValueError(f"--bucket COUNT 정수 필요: {s}")
-    if cnt <= 0:
-        raise ValueError(f"--bucket COUNT는 1 이상이어야 함: {s}")
-    parse_tier_range(rng)
-    return name, rng, cnt
-
 def resolve_buckets_from_preset(preset: str) -> List[Tuple[str,str,int]]:
     preset = preset.lower()
     names = {"easy":["veasy","easy","mid"],
@@ -516,129 +478,86 @@ def resolve_buckets_from_preset(preset: str) -> List[Tuple[str,str,int]]:
              "hard":["mid","hard","insane"]}[preset]
     return [(nm, DEFAULT_BUCKETS[nm][0], DEFAULT_BUCKETS[nm][1]) for nm in names]
 
-def prompt_choice(prompt: str, choices: List[str], default: str = None) -> str:
-    chs = "/".join(choices)
-    while True:
-        s = input(f"{prompt} ({chs})" + (f" [{default}] " if default else " ") ).strip().lower()
-        if not s and default is not None:
-            return default
-        if s in choices:
-            return s
-        print(f"입력이 올바르지 않습니다. 가능한 값: {chs}")
-
-# ------------------------------ main ------------------------------
-
+# ------------------------------------------------------------
+# 8) 메인
+# ------------------------------------------------------------
 def main():
-    ap = argparse.ArgumentParser(description="Mock CT Bundle (N-buckets, exam-code + snapshot pools)")
-    ap.add_argument("--refresh-pool", action="store_true", help="기본 5버킷(veasy~insane) 풀 스냅샷 생성/갱신")
-    ap.add_argument("--exam-code", type=str, help="시험 코드(전원 동일 입력)")
-    ap.add_argument("--difficulty", type=str, choices=["easy","mid","hard"], help="난이도 프리셋 선택")
-    ap.add_argument("--pool-dir", type=str, default="./pool", help="풀 스냅샷 저장/읽기 디렉터리")
-    prep = ap.add_mutually_exclusive_group()
-    prep.add_argument("--prepare", dest="prepare", action="store_true", help="문제 폴더/샘플 생성 (기본값)")
-    prep.add_argument("--no-prepare", dest="prepare", action="store_false", help="문제 폴더/샘플 생성하지 않음")
-    ap.set_defaults(prepare=True)
-    ap.add_argument("--lang", type=str, choices=["py","cpp","java"], help="boj add --type <py|cpp|java>")
-    ap.add_argument("--aliases", action="store_true", help="problem1/2/3 별칭 폴더(링크) 생성")
-    ap.add_argument("--save-pdf", action="store_true", help="문제 페이지를 statement.pdf로 저장(wkhtmltopdf 필요)")
-    ap.add_argument("--tags", type=str, default="", help="공통 태그(쉼표) 예: 'graph,dp'")
-    ap.add_argument("--max-pages", type=int, default=3, help="solved.ac 검색 페이지(100/페이지)")
-    ap.add_argument("--duration", type=int, default=120, help="시험 시간(분)")
-    ap.add_argument("--bucket", action="append",
-                    help='커스텀 버킷 "name:TIER_RANGE:COUNT" (여러 번 지정). 예: --bucket "easy:B4~S3:1"')
-
-    args = ap.parse_args()
-
-    # 0) 풀 스냅샷 모드
-    if args.refresh_pool:
-        tags = [t.strip() for t in args.tags.split(",") if t.strip()]
-        def pool_path(name: str) -> str:
-            return os.path.join(args.pool_dir, f"pool_{name}.json")
-        for name in ["veasy","easy","mid","hard","insane"]:
-            rng, cnt = DEFAULT_BUCKETS[name]
-            q = build_query(rng, tags)
-            cands = fetch_candidates(q, max_pages=args.max_pages, size=100)
-            save_json(pool_path(name), {
-                "bucket": {"name": name, "range": rng, "count": cnt},
-                "tags": tags,
-                "updated_at": datetime.now().isoformat(),
-                "items": cands
-            })
-            print(f"[ok] '{name}' 풀 스냅샷 저장: {pool_path(name)}")
-        print("[i] pool/ 폴더를 팀원과 공유하세요.")
-        return
-
-    # 1) 대화형 입력 (요청하신 프롬프트 문구로 변경)
-    exam_code = (args.exam_code or "").strip()
+    print("시험 코드(exam-code)를 입력하세요 : ", end="")
+    exam_code = (input() or "").strip()
     while not exam_code:
-        exam_code = input("시험 코드(exam-code)를 입력하세요 : ").strip()
+        print("시험 코드(exam-code)를 입력하세요 : ", end="")
+        exam_code = (input() or "").strip()
 
-    buckets: List[Tuple[str,str,int]] = []
-    if args.bucket:
-        for b in args.bucket:
-            name, rng, cnt = parse_bucket_arg(b)
-            buckets.append((name, rng, cnt))
-    else:
-        diff = args.difficulty or input("난이도 프리셋을 선택하세요 (easy/mid/hard) : ").strip().lower() or "mid"
-        if diff not in ("easy","mid","hard"):
-            diff = "mid"
-        buckets = resolve_buckets_from_preset(diff)
+    print("난이도 프리셋을 선택하세요 (easy/mid/hard) : ", end="")
+    diff = (input() or "").strip().lower() or "mid"
+    if diff not in ("easy", "mid", "hard"):
+        diff = "mid"
 
-    lang = args.lang
-    if lang is None:
-        c = input("언어를 선택하세요 (py/cpp/java/) : ").strip().lower()
-        lang = c if c in ("py","cpp","java") else None
+    print("언어를 선택하세요 (py/cpp/java/) : ", end="")
+    lang = (input() or "").strip().lower()
+    if lang not in ("py","cpp","java"):
+        lang = None  # boj-cli 기본값 사용
 
-    tags = [t.strip() for t in args.tags.split(",") if t.strip()]
+    # 1) 로그인 보장
+    ensure_boj_login()
+
+    # 2) pool 준비(없으면 즉석 생성)
+    pool_dir = "./pool"
+    os.makedirs(pool_dir, exist_ok=True)
 
     def pool_path(name: str) -> str:
-        return os.path.join(args.pool_dir, f"pool_{name}.json")
+        return os.path.join(pool_dir, f"pool_{name}.json")
 
-    # 2) 스냅샷 로드
+    buckets = resolve_buckets_from_preset(diff)
+    tags: List[str] = []
+
     pools = []
     for name, rng, cnt in buckets:
         pj = load_json(pool_path(name), None)
         if not pj:
-            print(f"[error] 풀 스냅샷 없음: {pool_path(name)}  (주최자가 먼저 --refresh-pool 실행해 공유해야 합니다)")
-            sys.exit(1)
+            # 즉석 생성
+            q = build_query(rng, tags)
+            cands = fetch_candidates(q, max_pages=3, size=100)
+            pj = {"bucket": {"name": name, "range": rng, "count": cnt},
+                  "tags": tags, "updated_at": datetime.now().isoformat(), "items": cands}
+            save_json(pool_path(name), pj)
+            print(f"[ok] '{name}' 버킷을 새로 수집했습니다. ({len(cands)}개 후보)")
         items = pj.get("items", [])
         pools.append((name, rng, cnt, items))
 
-    # 3) 결정론 추출
+    # 3) 문제 결정
     picked_all: List[Dict] = []
     for name, rng, cnt, items in pools:
         chosen = deterministic_pick(items, exam_code, name, cnt)
         if len(chosen) < cnt:
-            print(f"[warn] '{name}' 버킷에서 {cnt}개 요구했지만 후보가 부족({len(items)}개). 가능한 만큼만 선택.")
+            print(f"[warn] '{name}' 버킷 후보 부족({len(items)}개) → 가능한 만큼만 선택")
         picked_all.extend(chosen)
 
-    # 4) 출력/공지
-    print(f"\n=== 이번 모의시험 (exam-code: {exam_code}) ===")
-    for i, p in enumerate(picked_all, 1):
-        pid = p["problemId"]
-        title = p.get("titleKo") or p.get("title") or ""
-        lvl = p.get("level") or 0
-        print(f"Q{i}. [{pid}] {title} ({tier_name(lvl)}) -> https://www.acmicpc.net/problem/{pid}")
-
+    # 4) 공지 작성
     dt = datetime.now().strftime("%Y%m%d_%H%M")
-    md_name = f"시험 응시자 설명서.md"
+    md_name = f"시험 유의 사항.md"
     with open(md_name, "w", encoding="utf-8") as f:
-        f.write(md_announce(picked_all, args.duration, [(n, r, c) for (n, r, c, _) in pools]))
+        f.write(md_announce(picked_all, duration=120, buckets_info=[(n,r,c) for (n,r,c,_) in pools]))
     print(f"[ok] 공지 생성: {md_name}")
 
-    # 5) 문제 폴더/샘플 준비
-    if args.prepare:
-        switch_boj_default_filetype(lang)  # 'py'/'cpp'/'java' 또는 None
-        for i, p in enumerate(picked_all, 1):
-            ensure_boj_add(
-                p["problemId"],
-                lang_flag=lang,
-                title=p.get("titleKo", ""),
-                make_aliases=args.aliases,
-                alias_name=f"problem{i}" if args.aliases else None,
-                save_pdf=args.save_pdf
-            )
-        print("[ok] 준비 완료. 각 폴더(예: problem1/ 또는 문제번호 폴더)에서 `boj run` → `boj submit` 실행하세요.")
+    # 5) BOJ 설정 및 문제 폴더 생성
+    switch_boj_default_filetype(lang)  # 'py'/'cpp'/'java' or None
+    for p in picked_all:
+        ensure_boj_add(
+            p["problemId"],
+            lang_flag=lang,
+            title=p.get("titleKo") or p.get("title") or "",
+            save_pdf=False
+        )
+
+    # 6) 안내
+    print("\n=== 준비 완료! ===")
+    print("- 아래 폴더로 이동해서 `boj run` 실행 → 샘플 테스트 확인")
+    print("- 풀이가 끝났다면 `boj submit`으로 바로 제출 가능 (이미 로그인됨)\n")
+    base_dir = get_ongoing_dir()
+    for p in picked_all:
+        print(os.path.join(base_dir, str(p["problemId"])))
+    print("\n행운을 빕니다! 🚀")
 
 if __name__ == "__main__":
     main()
