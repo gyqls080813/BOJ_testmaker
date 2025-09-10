@@ -74,7 +74,7 @@ TIER_TO_LEVEL = {name: i+1 for i, name in enumerate(TIER_ORDER)}
 
 DEFAULT_BUCKETS = {
     "veasy":  ("B2~S5", 1),
-    "easy":   ("S4~S2", 1),
+    "easy":   ("S4~S2", 2),
     "mid":    ("S1~G5", 1),
     "hard":   ("G4~G1", 1),
     "insane": ("P5~P1", 1),
